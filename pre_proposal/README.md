@@ -29,4 +29,16 @@ Idea
 ## Annotating regulatory regions and classifying promoters
 - To classify whether certain regulatory regions of genes (potential promoters) are actually being used to initiate transcription
 - To be able to expand this to ML algorithms instead of the current state of sticking to HMMs and MCMCs.
-- Would need the following information that would need code to extract from each scaffold on each assembly:
+- Would need the information found in `/pre_proposal/tss_format.json` for all scaffolds in all assemblies.
+	- Some of this information would only be needed in our training assembly (`dm6`), and will be commented for that line
+	- More data types could also be added as we start to extract the data, and as we see a need
+	- We could also format this as a 2D array if it would be easier for the ML algorithms to parse
+- ADV:
+	- Super useful, needed for TSS and regulatory network annotations
+	- Would be used extensively, and if published, would be cited a decent amount
+	- Completely novel approach to classifying TSS
+	- Have all data for 27 assemblies as BigBed format already.
+- DISADV:
+	- Would take a lot of computational hours to parse through dataset
+	- Would require an initial effort to classify and extract TSS regions from assemblies
+	- Do not have assembly data for `dm6`, but will be easy to obtain
