@@ -1,0 +1,19 @@
+assembly = {
+	assembly_name,
+	assembly_accesion,
+	scaffolds = {
+		scaffold_name,
+		scaffold_accession,
+		promoters = {
+			true_promoter, 											# only DMEL, from TSS Celnicker data
+			proposed promoter type, 								# broad, narrow, intermediate
+			promoter motif,											# Inr, TATA, BREu, MTE, DRE, Ohler ...
+			location on scaffold,
+			sequence of promoter,
+			strand,
+			50bp upstream flanking sequence,
+			50bp downstream flanking sequence,
+			distance to TSS,										# only DMEL, from Celnicker C5 data
+		}
+	}
+},
