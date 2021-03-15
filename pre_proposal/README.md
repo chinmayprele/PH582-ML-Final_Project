@@ -13,7 +13,7 @@ Idea
 	- Size (affects location of delivery (mailbox/door), affects position in linear route)
 	- Address (position in linear route)
 - Data we need:
-	- Name, as an identifier of locatio
+	- Name, as an identifier of location.
 	- Courier
 	- Mailbox delivery
 	- Date of “Out for Delivery”
