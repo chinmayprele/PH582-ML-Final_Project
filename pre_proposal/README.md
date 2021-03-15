@@ -1,3 +1,8 @@
+## Links
+
+- [GitHub Repo](https://github.com/drosophominin/PH582-ML-Final_Project)
+- [Pre-Proposal](https://docs.google.com/document/d/1BtWiQr21Crni3SstO6BSUOCDgrLlvCOQu6uzhpSgEAw/edit#)
+
 ### Format
 Idea
 - Elaboration
