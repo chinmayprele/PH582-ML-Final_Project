@@ -3,8 +3,6 @@
 - [GitHub Repo](https://github.com/drosophominin/PH582-ML-Final_Project)
 - [Pre-Proposal](https://docs.google.com/document/d/1BtWiQr21Crni3SstO6BSUOCDgrLlvCOQu6uzhpSgEAw/edit#)
 
-
-
 We would very much like to set up a time and meet to discuss what would be our best course of action.
 
 ## Estimating when a package will be delivered to a given address
