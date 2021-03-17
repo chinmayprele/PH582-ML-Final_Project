@@ -3,11 +3,9 @@
 - [GitHub Repo](https://github.com/drosophominin/PH582-ML-Final_Project)
 - [Pre-Proposal](https://docs.google.com/document/d/1BtWiQr21Crni3SstO6BSUOCDgrLlvCOQu6uzhpSgEAw/edit#)
 
-### Format
-Idea
-- Elaboration
-- Advantages:
-- Disadvantages/issues:
+
+
+We would very much like to set up a time and meet to discuss what would be our best course of action.
 
 ## Estimating when a package will be delivered to a given address
 - We plan to estimate when a package will be delivered given the carrier, current time of “Out for Delivery”, and address to which it is delivering to.
@@ -48,17 +46,16 @@ Idea
 	- Would require an initial effort to classify and extract TSS regions from assemblies
 	- Do not have assembly data for `dm6`, but will be easy to obtain
 
-## Predicting breast cancer using "Breast cancer Wisconsin (Diagnostic) dataset". 
-Tumor cells are classified as either Benign (B) or Malignant (M). B implies that the cells are non-cancerous and lack the potential to invade neighboring tissues. M refers to the tumor cells that enter an uncontrolled growth phase and destroy the tissues. 
+## Predicting breast cancer using "Breast cancer Wisconsin (Diagnostic) dataset".
+Tumor cells are classified as either Benign (B) or Malignant (M). B implies that the cells are non-cancerous and lack the potential to invade neighboring tissues. M refers to the tumor cells that enter an uncontrolled growth phase and destroy the tissues.
 
 Features of breast mass were computed using a digitized image of Fine needle aspirate (FNA) and these describe the characteristics of the cell nuclei present in the image. The dataset with all the attribute information is available on UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
-The main goal here is to use the available data to predict whether the cells are malign or benign. 
-We want to implement various classifiers and deep learning for predicting the class of the cells and compare their accuracies. 
+The main goal here is to use the available data to predict whether the cells are malign or benign.
+We want to implement various classifiers and deep learning for predicting the class of the cells and compare their accuracies.
 
 - ADV:
-	- Fundamental goal of cancer biology is to early detect and predict. Application of Machine Learning techniques on these systems will help the cancer researchers 	make robust cancer predictions and prognosis. 
+	- Fundamental goal of cancer biology is to early detect and predict. Application of Machine Learning techniques on these systems will help the cancer researchers 	make robust cancer predictions and prognosis.
 - DISADV:
-	- Available literature in the field of "ML and cancer prediction" is limited. 
+	- Available literature in the field of "ML and cancer prediction" is limited.
 	- The above mentioned dataset has 569 instances. There definitely is a need to obtain a bigger dataset to make robust predictions for these kinds of systems whose results could have a huge impact on one's life.
-
