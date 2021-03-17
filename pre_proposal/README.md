@@ -56,3 +56,8 @@ Features of breast mass were computed using a digitized image of Fine needle asp
 The main goal here is to use the available data to predict whether the cells are malign or benign. 
 We want to implement various classifiers and deep learning for predicting the class of the cells and compare their accuracies. 
 
+Advantages:	Fundamental goal of cancer biology is to early detect and predict. Application of Machine Learning techniques on these systems will help the cancer researchers 		make robust cancer predictions and prognosis. 
+
+Disadvantages: 	Available literature in the field of "ML and cancer prediction" is limited. 
+		The above mentioned dataset has 569 instances. There definitely is a need to obtain a bigger dataset to make robust predictions for these kinds of systems whose 		 results could have a huge impact on one's life.
+
