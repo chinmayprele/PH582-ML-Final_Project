@@ -28,15 +28,15 @@ We want to implement various classifiers and deep learning for predicting the cl
 
 Ten real-valued features are computed for each cell nucleus:
 
-a) radius (mean of distances from center to points on the perimeter)
-b) texture (standard deviation of gray-scale values)
-c) perimeter
-d) area
-e) smoothness (local variation in radius lengths)
-f) compactness (perimeter^2 / area - 1.0)
-g) concavity (severity of concave portions of the contour)
-h) concave points (number of concave portions of the contour)
-i) symmetry
+a) radius (mean of distances from center to points on the perimeter);
+b) texture (standard deviation of gray-scale values);
+c) perimeter;
+d) area;
+e) smoothness (local variation in radius lengths);
+f) compactness (perimeter^2 / area - 1.0);
+g) concavity (severity of concave portions of the contour);
+h) concave points (number of concave portions of the contour);
+i) symmetry;
 j) fractal dimension ("coastline approximation" - 1)
 
 The mean, standard error, and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features.  For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
@@ -59,7 +59,7 @@ The mean, standard error, and "worst" or largest (mean of the three largest valu
 		- oversampling consists in replicating some points from the minority class in order to increase its cardinality
 		- generating synthetic data consists in creating new synthetic points from the minority class (see SMOTE method for example) to increase its cardinality
 
-https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/ - this tutorial is for us and not for proposal
+<!-- https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/ - this tutorial is for us and not for proposal -->
 
 3. __Feature Selection__
 	- The `scikit-learn` library provides the `SelectKBest` class that can be used with a suite of different statistical tests to select a specific number of features.
