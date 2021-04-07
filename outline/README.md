@@ -30,4 +30,6 @@ We chose to use `random.choices()` to oversample our minority set (malignant) si
 
 ### 4.	Loss functions
 
-### 5.	Evaluating the model and making predictions
+- We will have to determine the loss functions we use depending on whether we choose to use a single decision tree algorithm, or whether we use an Ensemble.
+
+### 5.	Evaluating the model and making predictions 
