@@ -4,12 +4,13 @@
 
 - Using the original dataset, calculate the F1 score, precision and recall. Look at confusion matrix.
 - Applying following techniques and comparing the performance metrics
-	- Oversample the minority class by importing SMOTE
-	- Create ensemble balanced sets.  
-	- ADASYN – similar to SMOTE but just that it adds small random values to the points that makes it more realistic and have little more variance than being linearly correlated.
 - Calculate the F1 score, precision and recall for both cases a and b.
 - Plot the sizes of both the classes – M and B and check whether the dataset has balanced.
 - Pick the case which gives better results.
+
+#### Oversampling
+
+We chose to use `random.choices()` to oversample our minority set (malignant) since we thought it biologically appropriate.
 
 ### 2.	Identify relevant variables to make predictions.
 
