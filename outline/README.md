@@ -2,15 +2,12 @@
 
 ### 1.	Working with an imbalanced dataset
 
-- Using the original dataset, calculate the F1 score, precision and recall. Look at confusion matrix.
-- Applying following techniques and comparing the performance metrics
-- Calculate the F1 score, precision and recall for both cases a and b.
-- Plot the sizes of both the classes – M and B and check whether the dataset has balanced.
-- Pick the case which gives better results.
-
 #### Oversampling
 
 We chose to use `random.choices()` to oversample our minority set (malignant) since we thought it biologically appropriate.
+
+- Calculate the performance metrics: F1 score, precision and recall, Confusion matrix 
+- Plot the sizes of both the classes – M and B and check whether the dataset has balanced. 
 
 ### 2.	Identify relevant variables to make predictions.
 
@@ -22,7 +19,7 @@ We chose to use `random.choices()` to oversample our minority set (malignant) si
 	2. Feature Importance method
 		- `from sklearn.ensemble import RandomForestClasifier -> .feature_importances_`
 	3. Feature correlation method: `.corr()`
-- We will chose the “top” features generated in our list for each method.
+- We will chose the “top” features generated in our list for each method.              
 - Generate heat map to make decisions about which features to include in the new dataset.
 
 ### 3.	Algorithm selection
@@ -33,4 +30,6 @@ We chose to use `random.choices()` to oversample our minority set (malignant) si
 
 ### 4.	Loss functions
 
-### 5.	Evaluating the model and making predictions
+- We will have to determine the loss functions we use depending on whether we choose to use a single decision tree algorithm, or whether we use an Ensemble.
+
+### 5.	Evaluating the model and making predictions 
