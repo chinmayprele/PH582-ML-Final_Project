@@ -5,9 +5,9 @@
 #### Oversampling
 
 We chose to use `random.choices()` to oversample our minority set (malignant) since we thought it biologically appropriate.
+The script used to oversample can be found at `/outline/script/data_modifier.py`
 
-- Calculate the performance metrics: F1 score, precision and recall, Confusion matrix 
-- Plot the sizes of both the classes – M and B and check whether the dataset has balanced. 
+- [ ] Calculate the performance metrics: F1 score, precision and recall, Confusion matrix
 
 ### 2.	Identify relevant variables to make predictions.
 
@@ -25,11 +25,21 @@ We chose to use `random.choices()` to oversample our minority set (malignant) si
 ### 3.	Algorithm selection
 
 - Other than using the algorithms prescribed above, we will also experiment with a few others.
-- A few popular decision tree algorithms like C4.5, C5.0, CART, Random Forest, Neural networks, SVM
-- We will experiment with all of them, and maybe use an Ensemble to predict our dataset.
+- A few popular decision tree algorithms like C5.0, Random Forest, Neural networks, SVM
+- We will experiment with all of them, and maybe use an Ensemble of these models to predict our dataset.
 
 ### 4.	Loss functions
 
 - We will have to determine the loss functions we use depending on whether we choose to use a single decision tree algorithm, or whether we use an Ensemble.
+- We will test multiple loss algorithms with each strategy, and then use the most appropriate one.
 
-### 5.	Evaluating the model and making predictions 
+### 5.	Evaluating the model and making predictions
+
+- The mammograms generally identify the irregular edges of the tumor which are categorized as malignant tumors. Biologically, we expect that the following features will have the largest effect on the model:
+	- radius
+	- perimeter
+	- area
+	- compactness
+	- symmetry
+- We can use the `data_modifier.py` script to subset our initial and oversampled dataset to only grab these features.
+- We will also use `sklearn.feature_selection.SelectKBest` to validate these results.
