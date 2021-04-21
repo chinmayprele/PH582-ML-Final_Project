@@ -1,0 +1,243 @@
+{
+    "uid": "7d2c32f1-b7aa-41b5-b8f6-c5f2e74f5cd2",
+    "name": "29_CatBoost",
+    "preprocessing": [
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.4",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "793cf7cc-6ce2-48a6-861b-61e6c3e7b8ba",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1.0,
+                "loss_function": "Logloss",
+                "eval_metric": "Logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 127
+        },
+        {
+            "library_version": "0.24.4",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "7687b271-862c-4175-a6ab-e251ddfc8872",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1.0,
+                "loss_function": "Logloss",
+                "eval_metric": "Logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 49
+        },
+        {
+            "library_version": "0.24.4",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "12753ad1-99cf-4cc6-a79d-743111a2c59f",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1.0,
+                "loss_function": "Logloss",
+                "eval_metric": "Logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 82
+        },
+        {
+            "library_version": "0.24.4",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "fd8c5a40-8197-48f2-9b32-4cf94f3151e0",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1.0,
+                "loss_function": "Logloss",
+                "eval_metric": "Logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 99
+        },
+        {
+            "library_version": "0.24.4",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "46895e27-ad6f-4ff5-b195-504daabea60d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1.0,
+                "loss_function": "Logloss",
+                "eval_metric": "Logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 33
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1237,
+            "learning_rate": 0.1,
+            "depth": 6,
+            "rsm": 1.0,
+            "loss_function": "Logloss",
+            "eval_metric": "Logloss",
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "29_CatBoost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "29_CatBoost/learner_fold_0.catboost",
+        "29_CatBoost/learner_fold_1.catboost",
+        "29_CatBoost/learner_fold_2.catboost",
+        "29_CatBoost/learner_fold_3.catboost",
+        "29_CatBoost/learner_fold_4.catboost"
+    ],
+    "predictions_fname": "29_CatBoost/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.11069418635092053,
+    "train_time": 10.268700122833252,
+    "is_stacked": false,
+    "threshold": 0.4996773414810006
+}

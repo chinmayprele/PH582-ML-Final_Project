@@ -1,0 +1,394 @@
+{
+    "uid": "55e71a39-90bf-4700-8b09-43ed89f6d3db",
+    "name": "41_LightGBM_SelectedFeatures",
+    "preprocessing": [
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "3.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "dfae1de1-24b4-4997-b5f8-e0127e59c1b9",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "3.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "a82f6bc8-6d01-4a55-961d-d6a97efaff3d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "3.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "411711ba-5c27-4970-b7f6-3a39505babbc",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "3.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "e24a896c-565c-4b68-a334-fecfe297d5f6",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "3.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "2f5decb5-2904-4893-a0c5-fa62d7b35d31",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "binary",
+                "num_leaves": 31,
+                "learning_rate": 0.1,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 50,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se",
+                "random_feature"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "objective": "binary",
+            "num_leaves": 31,
+            "learning_rate": 0.1,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.5,
+            "min_data_in_leaf": 50,
+            "metric": "binary_logloss",
+            "custom_eval_metric_name": null,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "41_LightGBM_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "41_LightGBM_SelectedFeatures/learner_fold_0.lightgbm",
+        "41_LightGBM_SelectedFeatures/learner_fold_1.lightgbm",
+        "41_LightGBM_SelectedFeatures/learner_fold_2.lightgbm",
+        "41_LightGBM_SelectedFeatures/learner_fold_3.lightgbm",
+        "41_LightGBM_SelectedFeatures/learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "41_LightGBM_SelectedFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.094498188417251,
+    "train_time": 19.194616079330444,
+    "is_stacked": false,
+    "threshold": 0.6814692305335065
+}

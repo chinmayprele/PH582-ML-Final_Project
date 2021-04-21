@@ -1,0 +1,3256 @@
+{
+    "fit_level": "finished",
+    "time_controller": {
+        "total_time_limit": 10000,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "not_so_random",
+            "golden_features",
+            "insert_random_feature",
+            "features_selection",
+            "hill_climbing_1",
+            "hill_climbing_2",
+            "ensemble"
+        ],
+        "algorithms": [
+            "Linear",
+            "Random Forest",
+            "LightGBM",
+            "Xgboost",
+            "CatBoost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 6.435182809829712
+            },
+            {
+                "model_name": "1_Linear",
+                "model_type": "Linear",
+                "fit_level": "simple_algorithms",
+                "train_time": 26.539339303970337
+            },
+            {
+                "model_name": "2_Default_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "default_algorithms",
+                "train_time": 24.055691480636597
+            },
+            {
+                "model_name": "3_Default_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "default_algorithms",
+                "train_time": 33.753424406051636
+            },
+            {
+                "model_name": "4_Default_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "default_algorithms",
+                "train_time": 10.322461366653442
+            },
+            {
+                "model_name": "5_Default_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "default_algorithms",
+                "train_time": 5.066157579421997
+            },
+            {
+                "model_name": "6_Default_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "default_algorithms",
+                "train_time": 65.8427107334137
+            },
+            {
+                "model_name": "11_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 22.029200792312622
+            },
+            {
+                "model_name": "7_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 30.306633949279785
+            },
+            {
+                "model_name": "15_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 27.824578762054443
+            },
+            {
+                "model_name": "19_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 66.38214683532715
+            },
+            {
+                "model_name": "23_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 4.830320835113525
+            },
+            {
+                "model_name": "12_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 20.874265432357788
+            },
+            {
+                "model_name": "8_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 32.303478717803955
+            },
+            {
+                "model_name": "16_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 22.08177351951599
+            },
+            {
+                "model_name": "20_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 65.69446635246277
+            },
+            {
+                "model_name": "24_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 5.476586580276489
+            },
+            {
+                "model_name": "13_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 25.20736289024353
+            },
+            {
+                "model_name": "9_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 26.196327447891235
+            },
+            {
+                "model_name": "17_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 13.931875467300415
+            },
+            {
+                "model_name": "21_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 67.15725827217102
+            },
+            {
+                "model_name": "25_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 5.40715217590332
+            },
+            {
+                "model_name": "14_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "not_so_random",
+                "train_time": 26.55876636505127
+            },
+            {
+                "model_name": "10_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 27.000316619873047
+            },
+            {
+                "model_name": "18_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 18.530938386917114
+            },
+            {
+                "model_name": "22_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 65.08569669723511
+            },
+            {
+                "model_name": "26_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "not_so_random",
+                "train_time": 4.977909326553345
+            },
+            {
+                "model_name": "11_LightGBM_GoldenFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "golden_features",
+                "train_time": 30.981287240982056
+            },
+            {
+                "model_name": "17_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "golden_features",
+                "train_time": 18.74855136871338
+            },
+            {
+                "model_name": "16_CatBoost_GoldenFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "golden_features",
+                "train_time": 34.683557748794556
+            },
+            {
+                "model_name": "11_LightGBM_RandomFeature",
+                "model_type": "LightGBM",
+                "fit_level": "insert_random_feature",
+                "train_time": 4.309077262878418
+            },
+            {
+                "model_name": "11_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "features_selection",
+                "train_time": 20.625460863113403
+            },
+            {
+                "model_name": "17_CatBoost_SelectedFeatures",
+                "model_type": "CatBoost",
+                "fit_level": "features_selection",
+                "train_time": 9.13592004776001
+            },
+            {
+                "model_name": "24_NeuralNetwork_SelectedFeatures",
+                "model_type": "Neural Network",
+                "fit_level": "features_selection",
+                "train_time": 4.114863634109497
+            },
+            {
+                "model_name": "3_Default_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "features_selection",
+                "train_time": 26.827808618545532
+            },
+            {
+                "model_name": "19_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "features_selection",
+                "train_time": 50.57461500167847
+            },
+            {
+                "model_name": "27_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 25.70235300064087
+            },
+            {
+                "model_name": "28_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_1",
+                "train_time": 22.63924741744995
+            },
+            {
+                "model_name": "29_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 10.976048707962036
+            },
+            {
+                "model_name": "30_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 40.76876091957092
+            },
+            {
+                "model_name": "31_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 28.073155879974365
+            },
+            {
+                "model_name": "32_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 23.526597023010254
+            },
+            {
+                "model_name": "33_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 5.296512603759766
+            },
+            {
+                "model_name": "34_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 5.547850847244263
+            },
+            {
+                "model_name": "35_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 32.060256004333496
+            },
+            {
+                "model_name": "36_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 37.70619773864746
+            },
+            {
+                "model_name": "37_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 65.51253008842468
+            },
+            {
+                "model_name": "38_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "hill_climbing_1",
+                "train_time": 4.975894927978516
+            },
+            {
+                "model_name": "39_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 50.889938831329346
+            },
+            {
+                "model_name": "40_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 20.29089903831482
+            },
+            {
+                "model_name": "41_LightGBM_SelectedFeatures",
+                "model_type": "LightGBM",
+                "fit_level": "hill_climbing_2",
+                "train_time": 20.245604038238525
+            },
+            {
+                "model_name": "42_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 26.056557416915894
+            },
+            {
+                "model_name": "43_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 28.55213737487793
+            },
+            {
+                "model_name": "44_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 36.03323316574097
+            },
+            {
+                "model_name": "45_Xgboost_SelectedFeatures",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_2",
+                "train_time": 29.189021110534668
+            },
+            {
+                "model_name": "46_RandomForest_SelectedFeatures",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_2",
+                "train_time": 54.76874327659607
+            },
+            {
+                "model_name": "Ensemble",
+                "model_type": "Ensemble",
+                "fit_level": "ensemble",
+                "train_time": 11.229448795318604
+            }
+        ],
+        "is_hill_climbing": true,
+        "is_stacking": false
+    },
+    "all_params": {
+        "simple_algorithms": [
+            {
+                "additional": {
+                    "max_steps": 1,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Linear",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "1_Linear",
+                "status": "trained",
+                "final_loss": 0.16181423637074274,
+                "train_time": 26.539339303970337,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "default_algorithms": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 0.9,
+                    "min_data_in_leaf": 10,
+                    "seed": 2,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "2_Default_LightGBM",
+                "status": "trained",
+                "final_loss": 0.13226295960239529,
+                "train_time": 24.055691480636597,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "3_Default_Xgboost",
+                "status": "trained",
+                "final_loss": 0.11780978169746341,
+                "train_time": 33.753424406051636,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "learning_rate": 0.1,
+                    "depth": 6,
+                    "rsm": 1,
+                    "loss_function": "Logloss",
+                    "seed": 4,
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "4_Default_CatBoost",
+                "status": "trained",
+                "final_loss": 0.10759349074604342,
+                "train_time": 10.322461366653442,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "5_Default_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.15385289628692828,
+                "train_time": 5.066157579421997,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "criterion": "gini",
+                    "max_features": 0.9,
+                    "min_samples_split": 30,
+                    "max_depth": 4,
+                    "seed": 6,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "6_Default_RandomForest",
+                "status": "trained",
+                "final_loss": 0.16235767893992195,
+                "train_time": 65.8427107334137,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "not_so_random": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "11_LightGBM",
+                "status": "trained",
+                "final_loss": 0.10500311659847775,
+                "train_time": 22.029200792312622,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 8,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "7_Xgboost",
+                "status": "trained",
+                "final_loss": 0.12733107593906098,
+                "train_time": 30.306633949279785,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "learning_rate": 0.05,
+                    "depth": 8,
+                    "rsm": 0.8,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "15_CatBoost",
+                "status": "trained",
+                "final_loss": 0.11201216513455675,
+                "train_time": 27.824578762054443,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.5,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "19_RandomForest",
+                "status": "trained",
+                "final_loss": 0.15367385364523956,
+                "train_time": 66.38214683532715,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "dense_1_size": 32,
+                    "dense_2_size": 4,
+                    "learning_rate": 0.05,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "23_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.19261510288221895,
+                "train_time": 4.830320835113525,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.2,
+                    "feature_fraction": 0.5,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "12_LightGBM",
+                "status": "trained",
+                "final_loss": 0.12994059518413353,
+                "train_time": 20.874265432357788,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 8,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "8_Xgboost",
+                "status": "trained",
+                "final_loss": 0.12135596484174284,
+                "train_time": 32.303478717803955,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "16_CatBoost",
+                "status": "trained",
+                "final_loss": 0.10646192292921754,
+                "train_time": 22.08177351951599,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 30,
+                    "max_depth": 7,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "20_RandomForest",
+                "status": "trained",
+                "final_loss": 0.18066631701053248,
+                "train_time": 65.69446635246277,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.01,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "24_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.11648317561675112,
+                "train_time": 5.476586580276489,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary",
+                    "num_leaves": 63,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.9,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 20,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "13_LightGBM",
+                "status": "trained",
+                "final_loss": 0.11685503211156158,
+                "train_time": 25.20736289024353,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 7,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "9_Xgboost",
+                "status": "trained",
+                "final_loss": 0.30406640034239246,
+                "train_time": 26.196327447891235,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "17_CatBoost",
+                "status": "trained",
+                "final_loss": 0.10622760562889118,
+                "train_time": 13.931875467300415,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "gini",
+                    "max_features": 0.8,
+                    "min_samples_split": 40,
+                    "max_depth": 3,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "21_RandomForest",
+                "status": "trained",
+                "final_loss": 0.16494041201674473,
+                "train_time": 67.15725827217102,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "dense_1_size": 64,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.08,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "25_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.1869418596450848,
+                "train_time": 5.40715217590332,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "binary",
+                    "num_leaves": 95,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 1.0,
+                    "bagging_fraction": 1.0,
+                    "min_data_in_leaf": 10,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "14_LightGBM",
+                "status": "trained",
+                "final_loss": 0.12782752010848678,
+                "train_time": 26.55876636505127,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "binary:logistic",
+                    "eta": 0.15,
+                    "max_depth": 8,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "10_Xgboost",
+                "status": "trained",
+                "final_loss": 0.6930919972793111,
+                "train_time": 27.000316619873047,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "learning_rate": 0.2,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "18_CatBoost",
+                "status": "trained",
+                "final_loss": 0.11228895560530476,
+                "train_time": 18.530938386917114,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "criterion": "entropy",
+                    "max_features": 0.6,
+                    "min_samples_split": 50,
+                    "max_depth": 6,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "22_RandomForest",
+                "status": "trained",
+                "final_loss": 0.1642002581996177,
+                "train_time": 65.08569669723511,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "dense_1_size": 32,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.05,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "26_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.1583476060741732,
+                "train_time": 4.977909326553345,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "golden_features": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_1",
+                        "ml_task": "binary_classification"
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "11_LightGBM_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.10841467428790909,
+                "train_time": 30.981287240982056,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_1",
+                        "ml_task": "binary_classification"
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "17_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.11606703598652536,
+                "train_time": 18.74855136871338,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "golden_features": {
+                        "results_path": "AutoML_1",
+                        "ml_task": "binary_classification"
+                    }
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "16_CatBoost_GoldenFeatures",
+                "status": "trained",
+                "final_loss": 0.1123077207607867,
+                "train_time": 34.683557748794556,
+                "data_type": "original_golden_features",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "insert_random_feature": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "add_random_feature": true
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 1,
+                "name": "11_LightGBM_RandomFeature",
+                "status": "trained",
+                "final_loss": 0.10857606493788736,
+                "train_time": 4.309077262878418,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "features_selection": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "11_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.09675061908909692,
+                "train_time": 20.625460863113403,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "17_CatBoost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.10991544689920849,
+                "train_time": 9.13592004776001,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 16,
+                    "learning_rate": 0.01,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "24_NeuralNetwork_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.22620136941706698,
+                "train_time": 4.114863634109497,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "3_Default_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.1116879774319455,
+                "train_time": 26.827808618545532,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.5,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "19_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.15628133682806963,
+                "train_time": 50.57461500167847,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "hill_climbing_1": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "27_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.09675061908909692,
+                "train_time": 25.70235300064087,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.05,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "28_LightGBM",
+                "status": "trained",
+                "final_loss": 0.10500311659847775,
+                "train_time": 22.63924741744995,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 6,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "29_CatBoost",
+                "status": "trained",
+                "final_loss": 0.11069418635092053,
+                "train_time": 10.976048707962036,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 9,
+                    "rsm": 1.0,
+                    "loss_function": "Logloss",
+                    "eval_metric": "Logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "30_CatBoost",
+                "status": "trained",
+                "final_loss": 0.1137579783385681,
+                "train_time": 40.76876091957092,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "31_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.11318086190088784,
+                "train_time": 28.073155879974365,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "32_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.11454263317411358,
+                "train_time": 23.526597023010254,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 8,
+                    "learning_rate": 0.01,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "33_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.21922939657472487,
+                "train_time": 5.296512603759766,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "dense_1_size": 64,
+                    "dense_2_size": 32,
+                    "learning_rate": 0.01,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "34_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.22519417996408767,
+                "train_time": 5.547850847244263,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "35_Xgboost",
+                "status": "trained",
+                "final_loss": 0.11977109935249691,
+                "train_time": 32.060256004333496,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.1,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "36_Xgboost",
+                "status": "trained",
+                "final_loss": 0.12135596484174284,
+                "train_time": 37.70619773864746,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.6,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "37_RandomForest",
+                "status": "trained",
+                "final_loss": 0.16381490958709727,
+                "train_time": 65.51253008842468,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "dense_1_size": 32,
+                    "dense_2_size": 8,
+                    "learning_rate": 0.05,
+                    "seed": 5,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "38_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 0.11187631987983913,
+                "train_time": 4.975894927978516,
+                "data_type": "original",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.6,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "39_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.1529633594897614,
+                "train_time": 50.889938831329346,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "hill_climbing_2": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 15,
+                    "learning_rate": 0.1,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "40_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.094498188417251,
+                "train_time": 20.29089903831482,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "binary",
+                    "num_leaves": 31,
+                    "learning_rate": 0.1,
+                    "feature_fraction": 0.8,
+                    "bagging_fraction": 0.5,
+                    "min_data_in_leaf": 50,
+                    "metric": "binary_logloss",
+                    "custom_eval_metric_name": null,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "41_LightGBM_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.094498188417251,
+                "train_time": 20.245604038238525,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 5,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "42_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.11027300427551107,
+                "train_time": 26.056557416915894,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.075,
+                    "max_depth": 7,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "43_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.1116879774319455,
+                "train_time": 28.55213737487793,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 5,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "44_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.11181274414864777,
+                "train_time": 36.03323316574097,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "objective": "binary:logistic",
+                    "eta": 0.05,
+                    "max_depth": 7,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 3,
+                    "eval_metric": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "45_Xgboost_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.11318086190088784,
+                "train_time": 29.189021110534668,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "categorical_to_int"
+                    ],
+                    "ml_task": "binary_classification",
+                    "drop_features": [
+                        "radius_worst",
+                        "area_mean",
+                        "texture_se",
+                        "concavity_se",
+                        "radius_mean",
+                        "perimeter_se",
+                        "smoothness_se",
+                        "concavity_mean",
+                        "symmetry_mean",
+                        "concave points_se",
+                        "random_feature"
+                    ]
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 5,
+                    "shuffle": true,
+                    "stratify": true,
+                    "random_seed": 1230,
+                    "X_path": "AutoML_1/X.parquet",
+                    "y_path": "AutoML_1/y.parquet",
+                    "results_path": "AutoML_1"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "gini",
+                    "max_features": 0.7,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "logloss",
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "binary_classification",
+                "explain_level": 2,
+                "name": "46_RandomForest_SelectedFeatures",
+                "status": "trained",
+                "final_loss": 0.15351955041048193,
+                "train_time": 54.76874327659607,
+                "data_type": "original_features_selection",
+                "max_time_for_learner": 200.0
+            }
+        ],
+        "ensemble": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": false,
+                "name": "Ensemble",
+                "status": "trained",
+                "final_loss": 0.08585454057119307,
+                "train_time": 11.229448795318604
+            }
+        ]
+    },
+    "adjust_validation": false
+}

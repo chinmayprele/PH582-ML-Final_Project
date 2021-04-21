@@ -1,0 +1,362 @@
+{
+    "uid": "817f6093-c061-4530-b989-088b2adf6995",
+    "name": "24_NeuralNetwork_SelectedFeatures",
+    "preprocessing": [
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "B": 0,
+                "M": 1
+            },
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "radius_worst",
+                    "area_mean",
+                    "texture_se",
+                    "concavity_se",
+                    "radius_mean",
+                    "perimeter_se",
+                    "smoothness_se",
+                    "concavity_mean",
+                    "symmetry_mean",
+                    "concave points_se",
+                    "random_feature"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b4faa84e-f64e-4e7f-a815-2318a5b4cdc4",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "d1a7d1b1-ccd0-4e06-9628-e2f650316372",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "a222cd24-5f2c-429b-9833-004b5d4096a6",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "a7e6c2cd-a0fe-4196-9d20-221f7c376d0d",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "f4d0a9e8-8f2f-4079-9aa3-64a8943ab284",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "radius_worst",
+                "area_mean",
+                "texture_se",
+                "concavity_se",
+                "radius_mean",
+                "perimeter_se",
+                "smoothness_se",
+                "concavity_mean",
+                "symmetry_mean",
+                "concave points_se",
+                "random_feature"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "dense_1_size": 64,
+            "dense_2_size": 16,
+            "learning_rate": 0.01,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "24_NeuralNetwork_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "24_NeuralNetwork_SelectedFeatures/learner_fold_0.neural_network",
+        "24_NeuralNetwork_SelectedFeatures/learner_fold_1.neural_network",
+        "24_NeuralNetwork_SelectedFeatures/learner_fold_2.neural_network",
+        "24_NeuralNetwork_SelectedFeatures/learner_fold_3.neural_network",
+        "24_NeuralNetwork_SelectedFeatures/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "24_NeuralNetwork_SelectedFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.22620136941706698,
+    "train_time": 3.527649164199829,
+    "is_stacked": false,
+    "threshold": 0.5290844638024064
+}

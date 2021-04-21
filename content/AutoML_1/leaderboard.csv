@@ -1,0 +1,57 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,logloss,0.16181423637074274,26.54,0.0457
+2_Default_LightGBM,LightGBM,logloss,0.13226295960239529,24.06,0.04
+3_Default_Xgboost,Xgboost,logloss,0.11780978169746341,33.75,0.0474
+4_Default_CatBoost,CatBoost,logloss,0.10759349074604342,10.32,0.0494
+5_Default_NeuralNetwork,Neural Network,logloss,0.15385289628692828,5.07,0.0436
+6_Default_RandomForest,Random Forest,logloss,0.16235767893992195,65.84,0.5621
+11_LightGBM,LightGBM,logloss,0.10500311659847775,22.03,0.0372
+7_Xgboost,Xgboost,logloss,0.12733107593906098,30.31,0.0612
+15_CatBoost,CatBoost,logloss,0.11201216513455675,27.82,0.0601
+19_RandomForest,Random Forest,logloss,0.15367385364523956,66.38,0.5594
+23_NeuralNetwork,Neural Network,logloss,0.19261510288221895,4.83,0.0437
+12_LightGBM,LightGBM,logloss,0.12994059518413353,20.87,0.0391
+8_Xgboost,Xgboost,logloss,0.12135596484174284,32.3,0.0451
+16_CatBoost,CatBoost,logloss,0.10646192292921754,22.08,0.052
+20_RandomForest,Random Forest,logloss,0.18066631701053248,65.69,0.576
+24_NeuralNetwork,Neural Network,logloss,0.11648317561675112,5.48,0.0436
+13_LightGBM,LightGBM,logloss,0.11685503211156158,25.21,0.0388
+9_Xgboost,Xgboost,logloss,0.30406640034239246,26.2,0.0453
+17_CatBoost,CatBoost,logloss,0.10622760562889118,13.93,0.0493
+21_RandomForest,Random Forest,logloss,0.16494041201674473,67.16,0.5577
+25_NeuralNetwork,Neural Network,logloss,0.1869418596450848,5.41,0.0546
+14_LightGBM,LightGBM,logloss,0.12782752010848678,26.56,0.0382
+10_Xgboost,Xgboost,logloss,0.6930919972793111,27.0,0.0434
+18_CatBoost,CatBoost,logloss,0.11228895560530476,18.53,0.0467
+22_RandomForest,Random Forest,logloss,0.1642002581996177,65.09,0.5595
+26_NeuralNetwork,Neural Network,logloss,0.1583476060741732,4.98,0.044
+11_LightGBM_GoldenFeatures,LightGBM,logloss,0.10841467428790909,30.98,0.0778
+17_CatBoost_GoldenFeatures,CatBoost,logloss,0.11606703598652536,18.75,0.0972
+16_CatBoost_GoldenFeatures,CatBoost,logloss,0.1123077207607867,34.68,0.084
+11_LightGBM_RandomFeature,LightGBM,logloss,0.10857606493788736,4.31,0.0412
+11_LightGBM_SelectedFeatures,LightGBM,logloss,0.09675061908909692,20.63,0.0372
+17_CatBoost_SelectedFeatures,CatBoost,logloss,0.10991544689920849,9.14,0.0435
+24_NeuralNetwork_SelectedFeatures,Neural Network,logloss,0.22620136941706698,4.11,0.0456
+3_Default_Xgboost_SelectedFeatures,Xgboost,logloss,0.1116879774319455,26.83,0.0429
+19_RandomForest_SelectedFeatures,Random Forest,logloss,0.15628133682806963,50.57,0.5601
+27_LightGBM_SelectedFeatures,LightGBM,logloss,0.09675061908909692,25.7,0.0383
+28_LightGBM,LightGBM,logloss,0.10500311659847775,22.64,0.0426
+29_CatBoost,CatBoost,logloss,0.11069418635092053,10.98,0.0566
+30_CatBoost,CatBoost,logloss,0.1137579783385681,40.77,0.0465
+31_Xgboost_SelectedFeatures,Xgboost,logloss,0.11318086190088784,28.07,0.0509
+32_Xgboost_SelectedFeatures,Xgboost,logloss,0.11454263317411358,23.53,0.043
+33_NeuralNetwork,Neural Network,logloss,0.21922939657472487,5.3,0.0446
+34_NeuralNetwork,Neural Network,logloss,0.22519417996408767,5.55,0.0446
+35_Xgboost,Xgboost,logloss,0.11977109935249691,32.06,0.0443
+36_Xgboost,Xgboost,logloss,0.12135596484174284,37.71,0.0439
+37_RandomForest,Random Forest,logloss,0.16381490958709727,65.51,0.5585
+38_NeuralNetwork,Neural Network,logloss,0.11187631987983913,4.98,0.0568
+39_RandomForest_SelectedFeatures,Random Forest,logloss,0.1529633594897614,50.89,0.5587
+40_LightGBM_SelectedFeatures,LightGBM,logloss,0.094498188417251,20.29,0.0411
+41_LightGBM_SelectedFeatures,LightGBM,logloss,0.094498188417251,20.25,0.046
+42_Xgboost_SelectedFeatures,Xgboost,logloss,0.11027300427551107,26.06,0.0421
+43_Xgboost_SelectedFeatures,Xgboost,logloss,0.1116879774319455,28.55,0.0415
+44_Xgboost_SelectedFeatures,Xgboost,logloss,0.11181274414864777,36.03,0.0439
+45_Xgboost_SelectedFeatures,Xgboost,logloss,0.11318086190088784,29.19,0.0422
+46_RandomForest_SelectedFeatures,Random Forest,logloss,0.15351955041048193,54.77,0.5555
+Ensemble,Ensemble,logloss,0.08585454057119307,11.23,0.1306

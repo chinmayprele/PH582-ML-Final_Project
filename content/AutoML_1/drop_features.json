@@ -1,0 +1,13 @@
+[
+    "radius_worst",
+    "area_mean",
+    "texture_se",
+    "concavity_se",
+    "radius_mean",
+    "perimeter_se",
+    "smoothness_se",
+    "concavity_mean",
+    "symmetry_mean",
+    "concave points_se",
+    "random_feature"
+]
