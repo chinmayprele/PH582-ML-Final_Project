@@ -1,0 +1,23 @@
+[
+    "concavity_se_ratio_area_se",
+    "compactness_se",
+    "smoothness_mean",
+    "area_mean",
+    "random_feature",
+    "fractal_dimension_se",
+    "concave points_se_ratio_radius_worst",
+    "compactness_worst",
+    "compactness_mean",
+    "concavity_se",
+    "radius_worst_ratio_concavity_worst",
+    "perimeter_mean_ratio_texture_se",
+    "fractal_dimension_worst",
+    "symmetry_mean",
+    "smoothness_se_ratio_area_worst",
+    "smoothness_se",
+    "concavity_mean",
+    "perimeter_mean",
+    "fractal_dimension_mean",
+    "texture_se",
+    "concave points_se"
+]

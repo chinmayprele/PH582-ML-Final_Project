@@ -1,0 +1,8 @@
+if (concave points_mean > 0.256) and (concavity_worst > 0.178) then class: 1 (proba: 95.12%) | based on 164 samples
+
+if (concave points_mean <= 0.256) and (radius_worst <= 0.305) then class: 0 (proba: 98.0%) | based on 150 samples
+
+if (concave points_mean <= 0.256) and (radius_worst > 0.305) then class: 1 (proba: 55.56%) | based on 18 samples
+
+if (concave points_mean > 0.256) and (concavity_worst <= 0.178) then class: 0 (proba: 85.71%) | based on 7 samples
+

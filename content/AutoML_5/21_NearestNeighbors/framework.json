@@ -1,0 +1,192 @@
+{
+    "uid": "d09974f7-6c68-449c-96c3-1a818dee7d69",
+    "name": "21_NearestNeighbors",
+    "preprocessing": [
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "d96a845f-4fdd-4cb9-a616-e9a0c15ec007",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "n_neighbors": 7,
+                "weights": "distance",
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "3d1eb793-60fe-40bd-9ee2-e06f2d80f3eb",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "n_neighbors": 7,
+                "weights": "distance",
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "ff02851b-cf03-4a41-95ea-13aead71810e",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "n_neighbors": 7,
+                "weights": "distance",
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "bcb7ddf0-5748-49de-9ba8-1571850b7a67",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "n_neighbors": 7,
+                "weights": "distance",
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "6eea9fe3-8237-49d6-88cc-d1631eb79ea5",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "n_neighbors": 7,
+                "weights": "distance",
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_5/X.parquet",
+            "y_path": "AutoML_5/y.parquet",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1237,
+            "n_neighbors": 7,
+            "weights": "distance",
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "21_NearestNeighbors",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "21_NearestNeighbors/learner_fold_0.k_neighbors",
+        "21_NearestNeighbors/learner_fold_1.k_neighbors",
+        "21_NearestNeighbors/learner_fold_2.k_neighbors",
+        "21_NearestNeighbors/learner_fold_3.k_neighbors",
+        "21_NearestNeighbors/learner_fold_4.k_neighbors"
+    ],
+    "predictions_fname": "21_NearestNeighbors/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.16223271749922313,
+    "train_time": 42.6913423538208,
+    "is_stacked": false,
+    "threshold": 0.4307295086421517
+}

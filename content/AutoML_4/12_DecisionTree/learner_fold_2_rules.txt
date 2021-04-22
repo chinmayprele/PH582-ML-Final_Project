@@ -1,0 +1,8 @@
+if (concave points_worst <= 0.495) and (perimeter_worst <= 0.257) then class: 0 (proba: 97.3%) | based on 148 samples
+
+if (concave points_worst > 0.495) and (area_se > 0.034) then class: 1 (proba: 100.0%) | based on 128 samples
+
+if (concave points_worst <= 0.495) and (perimeter_worst > 0.257) then class: 1 (proba: 51.02%) | based on 49 samples
+
+if (concave points_worst > 0.495) and (area_se <= 0.034) then class: 1 (proba: 85.71%) | based on 14 samples
+

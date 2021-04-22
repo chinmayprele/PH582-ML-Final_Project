@@ -1,0 +1,24 @@
+if (perimeter_worst > 0.257) and (concavity_worst > 0.165) and (texture_mean > 0.192) and (fractal_dimension_se <= 0.415) then class: 1 (proba: 98.11%) | based on 159 samples
+
+if (perimeter_worst <= 0.257) and (symmetry_worst <= 0.539) and (texture_worst <= 0.714) and (radius_se <= 0.186) then class: 0 (proba: 99.32%) | based on 148 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst <= 0.165) and (area_se <= 0.062) then class: 0 (proba: 100.0%) | based on 10 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst > 0.165) and (texture_mean <= 0.192) and (area_worst <= 0.192) then class: 0 (proba: 100.0%) | based on 5 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst > 0.165) and (texture_mean <= 0.192) and (area_worst > 0.192) then class: 1 (proba: 100.0%) | based on 4 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst <= 0.165) and (area_se > 0.062) and (smoothness_worst > 0.187) then class: 1 (proba: 100.0%) | based on 4 samples
+
+if (perimeter_worst <= 0.257) and (symmetry_worst <= 0.539) and (texture_worst <= 0.714) and (radius_se > 0.186) then class: 0 (proba: 66.67%) | based on 3 samples
+
+if (perimeter_worst <= 0.257) and (symmetry_worst > 0.539) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst > 0.165) and (texture_mean > 0.192) and (fractal_dimension_se > 0.415) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst > 0.257) and (concavity_worst <= 0.165) and (area_se > 0.062) and (smoothness_worst <= 0.187) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 0.257) and (symmetry_worst <= 0.539) and (texture_worst > 0.714) and (smoothness_worst > 0.449) then class: 1 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 0.257) and (symmetry_worst <= 0.539) and (texture_worst > 0.714) and (smoothness_worst <= 0.449) then class: 0 (proba: 100.0%) | based on 1 samples
+

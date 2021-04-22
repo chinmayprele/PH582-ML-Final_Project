@@ -1,0 +1,13 @@
+[
+    "symmetry_worst",
+    "compactness_mean",
+    "texture_se",
+    "fractal_dimension_worst",
+    "concave points_se",
+    "compactness_se",
+    "symmetry_se",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "concavity_se",
+    "random_feature"
+]

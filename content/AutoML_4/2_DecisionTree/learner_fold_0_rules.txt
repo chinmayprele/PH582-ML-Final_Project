@@ -1,0 +1,22 @@
+if (concave points_mean > 0.256) and (concavity_worst > 0.178) and (area_se > 0.013) and (texture_mean > 0.192) then class: 1 (proba: 99.34%) | based on 152 samples
+
+if (concave points_mean <= 0.256) and (radius_worst <= 0.305) and (area_se <= 0.075) and (texture_worst <= 0.568) then class: 0 (proba: 100.0%) | based on 139 samples
+
+if (concave points_mean > 0.256) and (concavity_worst > 0.178) and (area_se > 0.013) and (texture_mean <= 0.192) then class: 1 (proba: 55.56%) | based on 9 samples
+
+if (concave points_mean <= 0.256) and (radius_worst <= 0.305) and (area_se <= 0.075) and (texture_worst > 0.568) then class: 0 (proba: 88.89%) | based on 9 samples
+
+if (concave points_mean <= 0.256) and (radius_worst > 0.305) and (texture_mean > 0.342) then class: 1 (proba: 100.0%) | based on 8 samples
+
+if (concave points_mean <= 0.256) and (radius_worst > 0.305) and (texture_mean <= 0.342) and (fractal_dimension_mean <= 0.189) then class: 0 (proba: 100.0%) | based on 7 samples
+
+if (concave points_mean > 0.256) and (concavity_worst <= 0.178) and (symmetry_mean > 0.277) then class: 0 (proba: 100.0%) | based on 6 samples
+
+if (concave points_mean > 0.256) and (concavity_worst > 0.178) and (area_se <= 0.013) then class: 0 (proba: 100.0%) | based on 3 samples
+
+if (concave points_mean <= 0.256) and (radius_worst > 0.305) and (texture_mean <= 0.342) and (fractal_dimension_mean > 0.189) then class: 1 (proba: 66.67%) | based on 3 samples
+
+if (concave points_mean <= 0.256) and (radius_worst <= 0.305) and (area_se > 0.075) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (concave points_mean > 0.256) and (concavity_worst <= 0.178) and (symmetry_mean <= 0.277) then class: 1 (proba: 100.0%) | based on 1 samples
+

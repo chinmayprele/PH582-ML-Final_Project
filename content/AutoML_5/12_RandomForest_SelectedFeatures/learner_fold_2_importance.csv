@@ -1,0 +1,16 @@
+feature,mean_importance
+radius_mean,0.0
+texture_mean,0.0
+perimeter_se,0.0
+symmetry_se,0.0
+smoothness_worst,0.0
+symmetry_worst,0.0
+radius_se,0.0025410613774509592
+concave points_mean,0.007887846298464868
+texture_worst,0.02090998184767841
+concavity_worst,0.022345402242196687
+perimeter_worst,0.046162270051015655
+area_se,0.09277053257542438
+concave points_worst,0.11640403077599557
+radius_worst,0.13112790560058868
+area_worst,0.1345649948096311
