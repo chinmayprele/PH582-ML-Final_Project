@@ -18,7 +18,7 @@ import time 							# for scheduled sleeps
 
 ### variables ==================================================================
 
-data_directory = "/Users/rele.c/Box/00_Personal/UA_School/03_Spring2021/PH582-Machine_Learning/code/PH582-ML-Final_Project/outline/data"
+data_directory = "/Users/rele.c/Box/00_Personal/UA_School/03_Spring2021/PH582-Machine_Learning/code/PH582-ML-Final_Project/final/data"
 
 standard_file = "{0}/{1}".format( data_directory, "standard_data.csv" )
 standard_subset_file = "{0}/{1}".format( data_directory, "standard_subset.csv" )
@@ -27,7 +27,7 @@ undersample_file = "{0}/{1}".format( data_directory, "undersample.csv" )
 
 ### functions ==================================================================
 
-def subset_creator( i="input_file", o="output_file", features="reqd_features", mode="none" ):
+def subset_creator( i="input_file", o="output_file", features="reqd_features", mode="none", iteration=None ):
 	"""
 	- creates a subset of the input file and outputs it
 	- requries reqdfeatures and mode.
@@ -36,6 +36,9 @@ def subset_creator( i="input_file", o="output_file", features="reqd_features", m
 		- oversample: oversamples the file so that B and M have the same count
 		- undersample: undersamples the file so that B and M have the same count
 	"""
+
+	if iteration != None:
+		o = o.split(".csv")[0] + "_{0}.csv".format(iteration)
 
 	from tqdm import tqdm as tqdm			# progress
 	import sys								# script creation/testing
@@ -124,35 +127,35 @@ reqd_features = {
 	"id"						:	0	,
 	"diagnosis"					:	1	,
 	"radius_mean"				:	2	,
-	# "texture_mean"				:	3	,
+	"texture_mean"				:	3	,
 	"perimeter_mean"			:	4	,
 	"area_mean"					:	5	,
-	# "smoothness_mean"			:	6	,
+	"smoothness_mean"			:	6	,
 	"compactness_mean"			:	7	,
-	# "concavity_mean"			:	8	,
-	# "concave points_mean"		:	9	,
+	"concavity_mean"			:	8	,
+	"concave points_mean"		:	9	,
 	"symmetry_mean"				:	10	,
-	# "fractal_dimension_mean"	:	11	,
+	"fractal_dimension_mean"	:	11	,
 	"radius_se"					:	12	,
-	# "texture_se"				:	13	,
+	"texture_se"				:	13	,
 	"perimeter_se"				:	14	,
 	"area_se"					:	15	,
-	# "smoothness_se"				:	16	,
+	"smoothness_se"				:	16	,
 	"compactness_se"			:	17	,
-	# "concavity_se"				:	18	,
-	# "concave points_se"			:	19	,
+	"concavity_se"				:	18	,
+	"concave points_se"			:	19	,
 	"symmetry_se"				:	20	,
-	# "fractal_dimension_se"		:	21	,
+	"fractal_dimension_se"		:	21	,
 	"radius_worst"				:	22	,
-	# "texture_worst"				:	23	,
+	"texture_worst"				:	23	,
 	"perimeter_worst"			:	24	,
 	"area_worst"				:	25	,
-	# "smoothness_worst"			:	26	,
+	"smoothness_worst"			:	26	,
 	"compactness_worst"			:	27	,
-	# "concavity_worst"			:	28	,
-	# "concave points_worst"		:	29	,
+	"concavity_worst"			:	28	,
+	"concave points_worst"		:	29	,
 	"symmetry_worst"			:	30	,
-	# "fractal_dimension_worst"	:	31	,
+	"fractal_dimension_worst"	:	31	,
 }
 
 ### code ==================================================================
@@ -161,3 +164,8 @@ reqd_features = {
 subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none" )
 subset_creator( i=standard_file, o=oversample_file, features=reqd_features, mode="oversample" )
 subset_creator( i=standard_file, o=undersample_file, features=reqd_features, mode="undersample" )
+
+for i in range( 5 ):
+	subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none", iteration=(i+1) )
+	subset_creator( i=standard_file, o=oversample_file, features=reqd_features, mode="oversample", iteration=(i+1) )
+	subset_creator( i=standard_file, o=undersample_file, features=reqd_features, mode="undersample", iteration=(i+1) )
