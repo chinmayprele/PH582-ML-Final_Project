@@ -161,10 +161,6 @@ reqd_features = {
 ### code ==================================================================
 
 # create standard subset
-subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none" )
-subset_creator( i=standard_file, o=oversample_file, features=reqd_features, mode="oversample" )
-subset_creator( i=standard_file, o=undersample_file, features=reqd_features, mode="undersample" )
-
 for i in range( 5 ):
 	subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none", iteration=(i+1) )
 	subset_creator( i=standard_file, o=oversample_file, features=reqd_features, mode="oversample", iteration=(i+1) )
