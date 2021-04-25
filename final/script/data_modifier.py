@@ -27,6 +27,9 @@ undersample_file = "{0}/{1}".format( data_directory, "undersample.csv" )
 
 ### functions ==================================================================
 
+# to seed further runs
+random.seed( 314159265 )
+
 def subset_creator( i="input_file", o="output_file", features="reqd_features", mode="none", iteration=None ):
 	"""
 	- creates a subset of the input file and outputs it
@@ -162,6 +165,6 @@ reqd_features = {
 
 # create standard subset
 for i in range( 5 ):
-	subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none", iteration=(i+1) )
+	# subset_creator( i=standard_file, o=standard_subset_file, features=reqd_features, mode="none", iteration=(i+1) )
 	subset_creator( i=standard_file, o=oversample_file, features=reqd_features, mode="oversample", iteration=(i+1) )
 	subset_creator( i=standard_file, o=undersample_file, features=reqd_features, mode="undersample", iteration=(i+1) )
