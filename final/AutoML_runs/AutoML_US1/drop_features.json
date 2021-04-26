@@ -1,0 +1,12 @@
+[
+    "radius_se",
+    "symmetry_se",
+    "fractal_dimension_mean",
+    "concave points_se",
+    "compactness_mean",
+    "fractal_dimension_se",
+    "compactness_se",
+    "concavity_se",
+    "texture_se",
+    "random_feature"
+]

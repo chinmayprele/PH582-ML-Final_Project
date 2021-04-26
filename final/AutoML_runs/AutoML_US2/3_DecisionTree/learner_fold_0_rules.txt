@@ -1,0 +1,22 @@
+if (perimeter_worst > 101.95) and (texture_mean > 14.895) and (concave points_worst > 0.085) and (concave points_mean > 0.04) then class: 1 (proba: 99.36%) | based on 156 samples
+
+if (perimeter_worst <= 101.95) and (compactness_worst <= 0.455) and (radius_mean <= 14.9) and (perimeter_se <= 4.105) then class: 0 (proba: 100.0%) | based on 154 samples
+
+if (perimeter_worst > 101.95) and (texture_mean > 14.895) and (concave points_worst > 0.085) and (concave points_mean <= 0.04) then class: 1 (proba: 77.78%) | based on 9 samples
+
+if (perimeter_worst > 101.95) and (texture_mean <= 14.895) and (concavity_mean <= 0.168) then class: 0 (proba: 100.0%) | based on 7 samples
+
+if (perimeter_worst <= 101.95) and (compactness_worst > 0.455) and (smoothness_worst > 0.157) then class: 1 (proba: 100.0%) | based on 3 samples
+
+if (perimeter_worst <= 101.95) and (compactness_worst <= 0.455) and (radius_mean <= 14.9) and (perimeter_se > 4.105) then class: 0 (proba: 66.67%) | based on 3 samples
+
+if (perimeter_worst > 101.95) and (texture_mean > 14.895) and (concave points_worst <= 0.085) and (symmetry_mean > 0.167) then class: 0 (proba: 100.0%) | based on 2 samples
+
+if (perimeter_worst > 101.95) and (texture_mean <= 14.895) and (concavity_mean > 0.168) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (perimeter_worst > 101.95) and (texture_mean > 14.895) and (concave points_worst <= 0.085) and (symmetry_mean <= 0.167) then class: 1 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 101.95) and (compactness_worst > 0.455) and (smoothness_worst <= 0.157) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 101.95) and (compactness_worst <= 0.455) and (radius_mean > 14.9) then class: 1 (proba: 100.0%) | based on 1 samples
+

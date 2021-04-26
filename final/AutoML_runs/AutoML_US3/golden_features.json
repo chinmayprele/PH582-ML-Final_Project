@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "concavity_worst",
+            "feature2": "radius_se",
+            "operation": "multiply",
+            "score": 0.2043501833
+        },
+        {
+            "feature1": "concave points_se",
+            "feature2": "concavity_worst",
+            "operation": "diff",
+            "score": 0.3519700626
+        },
+        {
+            "feature1": "area_worst",
+            "feature2": "perimeter_worst",
+            "operation": "ratio",
+            "score": 0.403690422
+        },
+        {
+            "feature1": "area_worst",
+            "feature2": "smoothness_worst",
+            "operation": "ratio",
+            "score": 0.412504086
+        },
+        {
+            "feature1": "smoothness_worst",
+            "feature2": "area_worst",
+            "operation": "ratio",
+            "score": 0.412504086
+        },
+        {
+            "feature1": "concavity_worst",
+            "feature2": "perimeter_worst",
+            "operation": "multiply",
+            "score": 0.4367797818
+        },
+        {
+            "feature1": "area_se",
+            "feature2": "symmetry_mean",
+            "operation": "multiply",
+            "score": 0.4793753552
+        },
+        {
+            "feature1": "perimeter_worst",
+            "feature2": "area_worst",
+            "operation": "ratio",
+            "score": 0.5384247532
+        },
+        {
+            "feature1": "texture_worst",
+            "feature2": "concavity_mean",
+            "operation": "multiply",
+            "score": 0.5422027887
+        },
+        {
+            "feature1": "area_se",
+            "feature2": "texture_mean",
+            "operation": "multiply",
+            "score": 0.5664197178
+        }
+    ],
+    "new_columns": [
+        "concavity_worst_multiply_radius_se",
+        "concave points_se_diff_concavity_worst",
+        "area_worst_ratio_perimeter_worst",
+        "area_worst_ratio_smoothness_worst",
+        "smoothness_worst_ratio_area_worst",
+        "concavity_worst_multiply_perimeter_worst",
+        "area_se_multiply_symmetry_mean",
+        "perimeter_worst_ratio_area_worst",
+        "texture_worst_multiply_concavity_mean",
+        "area_se_multiply_texture_mean"
+    ],
+    "ml_task": "binary_classification"
+}

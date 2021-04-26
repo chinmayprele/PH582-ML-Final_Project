@@ -1,0 +1,8 @@
+if (concave points_worst <= 0.136) and (area_worst <= 929.8) then class: 0 (proba: 96.99%) | based on 166 samples
+
+if (concave points_worst > 0.136) and (concavity_se <= 0.136) then class: 1 (proba: 96.73%) | based on 153 samples
+
+if (concave points_worst <= 0.136) and (area_worst > 929.8) then class: 1 (proba: 89.47%) | based on 19 samples
+
+if (concave points_worst > 0.136) and (concavity_se > 0.136) then class: 0 (proba: 100.0%) | based on 2 samples
+

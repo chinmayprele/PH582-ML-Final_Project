@@ -1,0 +1,24 @@
+if (perimeter_worst <= 105.05) and (smoothness_worst <= 0.178) and (concave points_worst <= 0.181) and (perimeter_se <= 6.597) then class: 0 (proba: 96.89%) | based on 161 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean > 0.049) and (texture_worst > 15.62) and (fractal_dimension_se <= 0.013) then class: 1 (proba: 98.68%) | based on 151 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean <= 0.049) and (radius_worst <= 17.48) and (area_mean > 611.95) then class: 0 (proba: 100.0%) | based on 8 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean <= 0.049) and (radius_worst > 17.48) and (fractal_dimension_worst > 0.062) then class: 1 (proba: 100.0%) | based on 7 samples
+
+if (perimeter_worst <= 105.05) and (smoothness_worst > 0.178) and (concavity_worst > 0.251) then class: 1 (proba: 100.0%) | based on 5 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean > 0.049) and (texture_worst > 15.62) and (fractal_dimension_se > 0.013) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean > 0.049) and (texture_worst <= 15.62) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean <= 0.049) and (radius_worst > 17.48) and (fractal_dimension_worst <= 0.062) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst > 105.05) and (concave points_mean <= 0.049) and (radius_worst <= 17.48) and (area_mean <= 611.95) then class: 1 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 105.05) and (smoothness_worst > 0.178) and (concavity_worst <= 0.251) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 105.05) and (smoothness_worst <= 0.178) and (concave points_worst > 0.181) then class: 1 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 105.05) and (smoothness_worst <= 0.178) and (concave points_worst <= 0.181) and (perimeter_se > 6.597) then class: 1 (proba: 100.0%) | based on 1 samples
+

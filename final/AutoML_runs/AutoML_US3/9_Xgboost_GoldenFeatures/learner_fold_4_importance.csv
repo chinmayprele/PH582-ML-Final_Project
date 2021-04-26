@@ -1,0 +1,41 @@
+feature,mean_importance
+area_worst_ratio_perimeter_worst,-0.008883435552395109
+perimeter_worst,-0.004540350901931688
+concavity_se,-0.004240745626018551
+compactness_se,-0.0026310097055795125
+radius_worst,-0.0019870470896074938
+perimeter_worst_ratio_area_worst,-0.0019830533420775063
+fractal_dimension_mean,-0.0015884351489754921
+fractal_dimension_se,-0.00044431825399874616
+area_se,-0.0003906474809420024
+radius_se,-0.000333960894065613
+smoothness_se,-0.00022058704874194647
+fractal_dimension_worst,-0.00019942998049026216
+compactness_mean,-0.00018367118723939258
+radius_mean,-0.00012185153152260708
+texture_se,-0.00010668541636688623
+smoothness_worst_ratio_area_worst,0.0
+area_worst_ratio_smoothness_worst,0.0
+perimeter_mean,0.0
+concavity_mean,0.0
+compactness_worst,7.80707282371812e-05
+symmetry_mean,0.0003577871502438129
+perimeter_se,0.00037697665088455844
+area_mean,0.0012570051553969618
+concavity_worst,0.0013903771757170474
+concave points_se,0.0018929935125059027
+area_worst,0.0018970436398896256
+concavity_worst_multiply_radius_se,0.002792843924336408
+concave points_mean,0.003403437196296491
+area_se_multiply_texture_mean,0.003796389527373589
+area_se_multiply_symmetry_mean,0.005862227277663945
+texture_worst_multiply_concavity_mean,0.0065108481082937816
+texture_mean,0.006562957189869075
+concave points_se_diff_concavity_worst,0.008283339584747978
+symmetry_se,0.008675920126482942
+symmetry_worst,0.012877983811371715
+smoothness_worst,0.01715188514766245
+concavity_worst_multiply_perimeter_worst,0.01945491777958177
+texture_worst,0.02069555218729962
+smoothness_mean,0.023822978079607274
+concave points_worst,0.046565021805387616

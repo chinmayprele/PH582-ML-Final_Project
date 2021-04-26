@@ -1,0 +1,638 @@
+{
+    "uid": "c12ebb60-1097-4529-b4eb-ca6079512ee0",
+    "name": "9_Xgboost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "perimeter_mean",
+                        "operation": "multiply",
+                        "score": 0.3341362305
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "concavity_mean",
+                        "operation": "multiply",
+                        "score": 0.3545628075
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.4065505747
+                    },
+                    {
+                        "feature1": "fractal_dimension_worst",
+                        "feature2": "perimeter_se",
+                        "operation": "multiply",
+                        "score": 0.4391144577
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.443343692
+                    },
+                    {
+                        "feature1": "concavity_se",
+                        "feature2": "concavity_mean",
+                        "operation": "sum",
+                        "score": 0.4873713943
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.4918770747
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "smoothness_mean",
+                        "operation": "multiply",
+                        "score": 0.4941218116
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_worst",
+                        "operation": "diff",
+                        "score": 0.5097477126
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.5154281266
+                    }
+                ],
+                "new_columns": [
+                    "concavity_worst_multiply_perimeter_mean",
+                    "concave points_mean_multiply_concavity_mean",
+                    "concave points_worst_multiply_texture_mean",
+                    "fractal_dimension_worst_multiply_perimeter_se",
+                    "concavity_worst_multiply_concave points_mean",
+                    "concavity_se_sum_concavity_mean",
+                    "concave points_worst_multiply_concavity_se",
+                    "concave points_worst_multiply_smoothness_mean",
+                    "concavity_worst_diff_concave points_worst",
+                    "compactness_worst_multiply_concavity_se"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "perimeter_mean",
+                        "operation": "multiply",
+                        "score": 0.3341362305
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "concavity_mean",
+                        "operation": "multiply",
+                        "score": 0.3545628075
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.4065505747
+                    },
+                    {
+                        "feature1": "fractal_dimension_worst",
+                        "feature2": "perimeter_se",
+                        "operation": "multiply",
+                        "score": 0.4391144577
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.443343692
+                    },
+                    {
+                        "feature1": "concavity_se",
+                        "feature2": "concavity_mean",
+                        "operation": "sum",
+                        "score": 0.4873713943
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.4918770747
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "smoothness_mean",
+                        "operation": "multiply",
+                        "score": 0.4941218116
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_worst",
+                        "operation": "diff",
+                        "score": 0.5097477126
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.5154281266
+                    }
+                ],
+                "new_columns": [
+                    "concavity_worst_multiply_perimeter_mean",
+                    "concave points_mean_multiply_concavity_mean",
+                    "concave points_worst_multiply_texture_mean",
+                    "fractal_dimension_worst_multiply_perimeter_se",
+                    "concavity_worst_multiply_concave points_mean",
+                    "concavity_se_sum_concavity_mean",
+                    "concave points_worst_multiply_concavity_se",
+                    "concave points_worst_multiply_smoothness_mean",
+                    "concavity_worst_diff_concave points_worst",
+                    "compactness_worst_multiply_concavity_se"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "perimeter_mean",
+                        "operation": "multiply",
+                        "score": 0.3341362305
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "concavity_mean",
+                        "operation": "multiply",
+                        "score": 0.3545628075
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.4065505747
+                    },
+                    {
+                        "feature1": "fractal_dimension_worst",
+                        "feature2": "perimeter_se",
+                        "operation": "multiply",
+                        "score": 0.4391144577
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.443343692
+                    },
+                    {
+                        "feature1": "concavity_se",
+                        "feature2": "concavity_mean",
+                        "operation": "sum",
+                        "score": 0.4873713943
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.4918770747
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "smoothness_mean",
+                        "operation": "multiply",
+                        "score": 0.4941218116
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_worst",
+                        "operation": "diff",
+                        "score": 0.5097477126
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.5154281266
+                    }
+                ],
+                "new_columns": [
+                    "concavity_worst_multiply_perimeter_mean",
+                    "concave points_mean_multiply_concavity_mean",
+                    "concave points_worst_multiply_texture_mean",
+                    "fractal_dimension_worst_multiply_perimeter_se",
+                    "concavity_worst_multiply_concave points_mean",
+                    "concavity_se_sum_concavity_mean",
+                    "concave points_worst_multiply_concavity_se",
+                    "concave points_worst_multiply_smoothness_mean",
+                    "concavity_worst_diff_concave points_worst",
+                    "compactness_worst_multiply_concavity_se"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "perimeter_mean",
+                        "operation": "multiply",
+                        "score": 0.3341362305
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "concavity_mean",
+                        "operation": "multiply",
+                        "score": 0.3545628075
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.4065505747
+                    },
+                    {
+                        "feature1": "fractal_dimension_worst",
+                        "feature2": "perimeter_se",
+                        "operation": "multiply",
+                        "score": 0.4391144577
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.443343692
+                    },
+                    {
+                        "feature1": "concavity_se",
+                        "feature2": "concavity_mean",
+                        "operation": "sum",
+                        "score": 0.4873713943
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.4918770747
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "smoothness_mean",
+                        "operation": "multiply",
+                        "score": 0.4941218116
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_worst",
+                        "operation": "diff",
+                        "score": 0.5097477126
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.5154281266
+                    }
+                ],
+                "new_columns": [
+                    "concavity_worst_multiply_perimeter_mean",
+                    "concave points_mean_multiply_concavity_mean",
+                    "concave points_worst_multiply_texture_mean",
+                    "fractal_dimension_worst_multiply_perimeter_se",
+                    "concavity_worst_multiply_concave points_mean",
+                    "concavity_se_sum_concavity_mean",
+                    "concave points_worst_multiply_concavity_se",
+                    "concave points_worst_multiply_smoothness_mean",
+                    "concavity_worst_diff_concave points_worst",
+                    "compactness_worst_multiply_concavity_se"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "perimeter_mean",
+                        "operation": "multiply",
+                        "score": 0.3341362305
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "concavity_mean",
+                        "operation": "multiply",
+                        "score": 0.3545628075
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.4065505747
+                    },
+                    {
+                        "feature1": "fractal_dimension_worst",
+                        "feature2": "perimeter_se",
+                        "operation": "multiply",
+                        "score": 0.4391144577
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.443343692
+                    },
+                    {
+                        "feature1": "concavity_se",
+                        "feature2": "concavity_mean",
+                        "operation": "sum",
+                        "score": 0.4873713943
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.4918770747
+                    },
+                    {
+                        "feature1": "concave points_worst",
+                        "feature2": "smoothness_mean",
+                        "operation": "multiply",
+                        "score": 0.4941218116
+                    },
+                    {
+                        "feature1": "concavity_worst",
+                        "feature2": "concave points_worst",
+                        "operation": "diff",
+                        "score": 0.5097477126
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_se",
+                        "operation": "multiply",
+                        "score": 0.5154281266
+                    }
+                ],
+                "new_columns": [
+                    "concavity_worst_multiply_perimeter_mean",
+                    "concave points_mean_multiply_concavity_mean",
+                    "concave points_worst_multiply_texture_mean",
+                    "fractal_dimension_worst_multiply_perimeter_se",
+                    "concavity_worst_multiply_concave points_mean",
+                    "concavity_se_sum_concavity_mean",
+                    "concave points_worst_multiply_concavity_se",
+                    "concave points_worst_multiply_smoothness_mean",
+                    "concavity_worst_diff_concave points_worst",
+                    "compactness_worst_multiply_concavity_se"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.3.3",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "3b4444fd-f4bd-4bd6-81d2-1e348867f2b3",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 36
+        },
+        {
+            "library_version": "1.3.3",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "b98547f8-28f7-44c1-aef0-29ea2889d212",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 32
+        },
+        {
+            "library_version": "1.3.3",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "ddc44dc9-2cf8-464c-8b71-f7f5d4231162",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 309
+        },
+        {
+            "library_version": "1.3.3",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4cb6b318-b03d-487c-b15e-cefc52b80251",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 241
+        },
+        {
+            "library_version": "1.3.3",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "da62ded4-578e-4f33-bf6e-86dfbcd00774",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 8,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 83
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "binary_classification"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "objective": "binary:logistic",
+            "eta": 0.1,
+            "max_depth": 8,
+            "min_child_weight": 1,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "eval_metric": "logloss",
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "9_Xgboost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "9_Xgboost_GoldenFeatures/learner_fold_0.xgboost",
+        "9_Xgboost_GoldenFeatures/learner_fold_1.xgboost",
+        "9_Xgboost_GoldenFeatures/learner_fold_2.xgboost",
+        "9_Xgboost_GoldenFeatures/learner_fold_3.xgboost",
+        "9_Xgboost_GoldenFeatures/learner_fold_4.xgboost"
+    ],
+    "predictions_fname": "9_Xgboost_GoldenFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.10203595360055158,
+    "train_time": 49.36109137535095,
+    "is_stacked": false,
+    "threshold": 0.5507391691207886
+}

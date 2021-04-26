@@ -1,0 +1,697 @@
+{
+    "uid": "a777cdee-7820-462c-a43a-565065a20b4b",
+    "name": "19_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        3.7094711125944704,
+                        4.078300549402292,
+                        25.65009458377686,
+                        380.6112076731903,
+                        0.5782439142209675,
+                        2.3297774604334998,
+                        54.08898912863646,
+                        5.106105834132275,
+                        5.983644842287067,
+                        35.699755685112386,
+                        615.2320011066852
+                    ],
+                    "mean": [
+                        14.81017994100295,
+                        19.857020648967552,
+                        96.77643067846607,
+                        721.8578171091445,
+                        1.2508702064896755,
+                        3.2378176991150442,
+                        48.49024483775811,
+                        17.2433185840708,
+                        26.43094395280236,
+                        114.24973451327432,
+                        991.087610619469
+                    ],
+                    "var": [
+                        13.760175935172859,
+                        16.632535371255035,
+                        657.9273521566989,
+                        144864.8914064444,
+                        0.3343660243335857,
+                        5.427863015143968,
+                        2925.6187449577537,
+                        26.072316789359654,
+                        35.80400559862862,
+                        1274.4725559767144,
+                        378510.41518573626
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 11,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        3.753439098443374,
+                        4.3449459758357545,
+                        25.867884669121747,
+                        380.8277532615167,
+                        0.5686249050921584,
+                        2.1399521363291742,
+                        46.86369192476342,
+                        5.204268654386082,
+                        6.301481289933788,
+                        35.946603794738046,
+                        620.4045293321423
+                    ],
+                    "mean": [
+                        14.935882005899703,
+                        19.824336283185843,
+                        97.496401179941,
+                        733.3309734513275,
+                        1.2391351032448377,
+                        3.129205604719764,
+                        46.93574926253687,
+                        17.395109144542772,
+                        26.46433628318584,
+                        114.78262536873156,
+                        1007.0808259587021
+                    ],
+                    "var": [
+                        14.088305065723409,
+                        18.878555532931315,
+                        669.1474572549838,
+                        145029.77765421465,
+                        0.32333428269106607,
+                        4.579395145779796,
+                        2196.2056208191366,
+                        27.08441222702552,
+                        39.708666447385596,
+                        1292.1583243758755,
+                        384901.780015837
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 11,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        3.682714340055651,
+                        4.295610648088154,
+                        25.48192105773657,
+                        375.8804665869627,
+                        0.5366285462062242,
+                        2.292020933755265,
+                        53.4484029668908,
+                        5.053942843372594,
+                        6.120814366329155,
+                        35.06285128273735,
+                        608.5796796727274
+                    ],
+                    "mean": [
+                        14.821032448377581,
+                        19.819498525073747,
+                        96.89082595870205,
+                        721.5905604719765,
+                        1.2238979351032448,
+                        3.1695746312684365,
+                        47.529837758112095,
+                        17.234353982300885,
+                        26.383982300884952,
+                        114.09687315634217,
+                        987.5787610619469
+                    ],
+                    "var": [
+                        13.562384910451529,
+                        18.452270839968325,
+                        649.3283007927186,
+                        141286.12516163278,
+                        0.2879701966034058,
+                        5.253359960772357,
+                        2856.731779711141,
+                        25.54233826407706,
+                        37.46436850706137,
+                        1229.4035400753562,
+                        370369.2265105595
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 11,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        3.611976129399178,
+                        4.405736740424819,
+                        24.90395734685924,
+                        364.4886411779883,
+                        0.5570158639658305,
+                        2.0226895405380962,
+                        45.54614914251614,
+                        5.119766439743639,
+                        6.39201964606091,
+                        35.41886978134315,
+                        619.2648528029052
+                    ],
+                    "mean": [
+                        14.715345132743364,
+                        19.72076696165192,
+                        96.06929203539822,
+                        710.2710914454276,
+                        1.1978979351032448,
+                        3.0630722713864307,
+                        44.82030973451327,
+                        17.198973451327433,
+                        26.383864306784663,
+                        113.70395280235988,
+                        984.3563421828908
+                    ],
+                    "var": [
+                        13.046371559349467,
+                        19.410516225929115,
+                        620.2070915341843,
+                        132851.9695477763,
+                        0.3102666727096005,
+                        4.091272977402215,
+                        2074.451701712324,
+                        26.212008397525256,
+                        40.857915155628646,
+                        1254.496336587743,
+                        383488.95791700383
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 11,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        3.701259881893346,
+                        4.180945007806788,
+                        25.622666318766903,
+                        381.3925869524294,
+                        0.5568811966947528,
+                        2.2793446909828634,
+                        53.021890388362905,
+                        5.0260751180700325,
+                        5.966708271039862,
+                        35.26553072355026,
+                        605.4337560432693
+                    ],
+                    "mean": [
+                        14.817414705882353,
+                        19.874441176470594,
+                        96.82373529411767,
+                        721.2797058823529,
+                        1.2187782352941177,
+                        3.1717900000000006,
+                        46.921282352941176,
+                        17.22706764705882,
+                        26.480235294117644,
+                        114.18585294117648,
+                        983.7885294117647
+                    ],
+                    "var": [
+                        13.699324713313148,
+                        17.4803011583045,
+                        656.521029282872,
+                        145460.3053822664,
+                        0.3101166672321799,
+                        5.1954122203117645,
+                        2811.320860355571,
+                        25.261431092482695,
+                        35.601607591695505,
+                        1243.6576572136678,
+                        366550.03295666096
+                    ],
+                    "n_samples_seen": 340,
+                    "n_features_in": 11,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c4997eec-89b6-4f89-b509-6accc213b2c7",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4dec5277-69d7-468b-92a7-a0f605b076f6",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "6723a7ed-48e7-4cc7-8a02-f618311b2cd0",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5b1c75bd-afb8-45f5-88bf-c91d6753144b",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "66ca375a-5272-40aa-aa90-6942f9de19d5",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "radius_mean": [
+                    "scale_normal"
+                ],
+                "texture_mean": [
+                    "scale_normal"
+                ],
+                "perimeter_mean": [
+                    "scale_normal"
+                ],
+                "area_mean": [
+                    "scale_normal"
+                ],
+                "texture_se": [
+                    "scale_normal"
+                ],
+                "perimeter_se": [
+                    "scale_normal"
+                ],
+                "area_se": [
+                    "scale_normal"
+                ],
+                "radius_worst": [
+                    "scale_normal"
+                ],
+                "texture_worst": [
+                    "scale_normal"
+                ],
+                "perimeter_worst": [
+                    "scale_normal"
+                ],
+                "area_worst": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1238,
+            "dense_1_size": 32,
+            "dense_2_size": 32,
+            "learning_rate": 0.05,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "19_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "19_NeuralNetwork/learner_fold_0.neural_network",
+        "19_NeuralNetwork/learner_fold_1.neural_network",
+        "19_NeuralNetwork/learner_fold_2.neural_network",
+        "19_NeuralNetwork/learner_fold_3.neural_network",
+        "19_NeuralNetwork/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "19_NeuralNetwork/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.10906422045978008,
+    "train_time": 4.866246461868286,
+    "is_stacked": false,
+    "threshold": 0.5799168702520123
+}

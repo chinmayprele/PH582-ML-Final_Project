@@ -1,0 +1,11 @@
+feature,mean_importance
+symmetry_worst,-0.001407838421093821
+compactness_se,-0.00016634502076279256
+symmetry_se,0.0
+smoothness_worst,0.0028880156172946757
+texture_worst,0.008797524253473127
+texture_mean,0.02016307626239456
+radius_worst,0.047318123562573866
+area_worst,0.13909133992857747
+perimeter_worst,0.1811794605952121
+concave points_worst,0.297948907049875

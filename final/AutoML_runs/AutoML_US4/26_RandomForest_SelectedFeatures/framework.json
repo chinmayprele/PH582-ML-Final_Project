@@ -1,0 +1,441 @@
+{
+    "uid": "084ffd6a-b881-4801-9658-8eb2ad872313",
+    "name": "26_RandomForest_SelectedFeatures",
+    "preprocessing": [
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "symmetry_worst",
+                    "compactness_mean",
+                    "random_feature",
+                    "smoothness_se",
+                    "symmetry_mean",
+                    "area_mean",
+                    "fractal_dimension_worst",
+                    "fractal_dimension_mean",
+                    "concavity_se",
+                    "concave points_se",
+                    "symmetry_se",
+                    "perimeter_se",
+                    "perimeter_mean",
+                    "radius_se",
+                    "radius_mean",
+                    "texture_se",
+                    "smoothness_mean",
+                    "concavity_mean",
+                    "radius_worst"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "symmetry_worst",
+                    "compactness_mean",
+                    "random_feature",
+                    "smoothness_se",
+                    "symmetry_mean",
+                    "area_mean",
+                    "fractal_dimension_worst",
+                    "fractal_dimension_mean",
+                    "concavity_se",
+                    "concave points_se",
+                    "symmetry_se",
+                    "perimeter_se",
+                    "perimeter_mean",
+                    "radius_se",
+                    "radius_mean",
+                    "texture_se",
+                    "smoothness_mean",
+                    "concavity_mean",
+                    "radius_worst"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "symmetry_worst",
+                    "compactness_mean",
+                    "random_feature",
+                    "smoothness_se",
+                    "symmetry_mean",
+                    "area_mean",
+                    "fractal_dimension_worst",
+                    "fractal_dimension_mean",
+                    "concavity_se",
+                    "concave points_se",
+                    "symmetry_se",
+                    "perimeter_se",
+                    "perimeter_mean",
+                    "radius_se",
+                    "radius_mean",
+                    "texture_se",
+                    "smoothness_mean",
+                    "concavity_mean",
+                    "radius_worst"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "symmetry_worst",
+                    "compactness_mean",
+                    "random_feature",
+                    "smoothness_se",
+                    "symmetry_mean",
+                    "area_mean",
+                    "fractal_dimension_worst",
+                    "fractal_dimension_mean",
+                    "concavity_se",
+                    "concave points_se",
+                    "symmetry_se",
+                    "perimeter_se",
+                    "perimeter_mean",
+                    "radius_se",
+                    "radius_mean",
+                    "texture_se",
+                    "smoothness_mean",
+                    "concavity_mean",
+                    "radius_worst"
+                ]
+            }
+        },
+        {
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "drop_features": [
+                    "symmetry_worst",
+                    "compactness_mean",
+                    "random_feature",
+                    "smoothness_se",
+                    "symmetry_mean",
+                    "area_mean",
+                    "fractal_dimension_worst",
+                    "fractal_dimension_mean",
+                    "concavity_se",
+                    "concave points_se",
+                    "symmetry_se",
+                    "perimeter_se",
+                    "perimeter_mean",
+                    "radius_se",
+                    "radius_mean",
+                    "texture_se",
+                    "smoothness_mean",
+                    "concavity_mean",
+                    "radius_worst"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "272dbc3a-ca15-4911-8d2e-e70c5d47b18f",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 3,
+                "eval_metric_name": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "153eeb39-bf6b-4c03-b0b9-0f98ef1f61fb",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 3,
+                "eval_metric_name": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "7e66f9ab-07fa-42b1-9ef3-cf783a953f55",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 3,
+                "eval_metric_name": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "d2124e0e-e676-4970-8c47-284d6b02db4a",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 3,
+                "eval_metric_name": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "ed17cb05-13be-4ed2-b40c-df44815b57db",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_features": 0.5,
+                "min_samples_split": 20,
+                "max_depth": 3,
+                "eval_metric_name": "logloss",
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "drop_features": [
+                "symmetry_worst",
+                "compactness_mean",
+                "random_feature",
+                "smoothness_se",
+                "symmetry_mean",
+                "area_mean",
+                "fractal_dimension_worst",
+                "fractal_dimension_mean",
+                "concavity_se",
+                "concave points_se",
+                "symmetry_se",
+                "perimeter_se",
+                "perimeter_mean",
+                "radius_se",
+                "radius_mean",
+                "texture_se",
+                "smoothness_mean",
+                "concavity_mean",
+                "radius_worst"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "criterion": "gini",
+            "max_features": 0.5,
+            "min_samples_split": 20,
+            "max_depth": 3,
+            "eval_metric_name": "logloss",
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "26_RandomForest_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "26_RandomForest_SelectedFeatures/learner_fold_0.random_forest",
+        "26_RandomForest_SelectedFeatures/learner_fold_1.random_forest",
+        "26_RandomForest_SelectedFeatures/learner_fold_2.random_forest",
+        "26_RandomForest_SelectedFeatures/learner_fold_3.random_forest",
+        "26_RandomForest_SelectedFeatures/learner_fold_4.random_forest"
+    ],
+    "predictions_fname": "26_RandomForest_SelectedFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.13329063523461945,
+    "train_time": 38.34368395805359,
+    "is_stacked": false,
+    "threshold": 0.4047744724717539
+}

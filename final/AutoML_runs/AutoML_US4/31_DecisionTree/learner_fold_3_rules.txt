@@ -1,0 +1,8 @@
+if (perimeter_worst > 101.65) and (concave points_mean > 0.05) then class: 1 (proba: 96.77%) | based on 155 samples
+
+if (perimeter_worst <= 101.65) and (smoothness_worst <= 0.182) then class: 0 (proba: 98.0%) | based on 150 samples
+
+if (perimeter_worst > 101.65) and (concave points_mean <= 0.05) then class: 0 (proba: 56.67%) | based on 30 samples
+
+if (perimeter_worst <= 101.65) and (smoothness_worst > 0.182) then class: 1 (proba: 100.0%) | based on 4 samples
+

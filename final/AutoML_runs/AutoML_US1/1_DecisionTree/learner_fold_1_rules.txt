@@ -1,0 +1,14 @@
+if (perimeter_worst <= 103.25) and (smoothness_worst <= 0.178) and (perimeter_se <= 4.118) then class: 0 (proba: 98.03%) | based on 152 samples
+
+if (perimeter_worst > 103.25) and (area_worst > 868.2) and (symmetry_se > 0.01) then class: 1 (proba: 98.63%) | based on 146 samples
+
+if (perimeter_worst > 103.25) and (area_worst <= 868.2) and (smoothness_worst <= 0.14) then class: 0 (proba: 83.33%) | based on 18 samples
+
+if (perimeter_worst > 103.25) and (area_worst <= 868.2) and (smoothness_worst > 0.14) then class: 1 (proba: 93.75%) | based on 16 samples
+
+if (perimeter_worst <= 103.25) and (smoothness_worst > 0.178) then class: 1 (proba: 100.0%) | based on 3 samples
+
+if (perimeter_worst <= 103.25) and (smoothness_worst <= 0.178) and (perimeter_se > 4.118) then class: 1 (proba: 66.67%) | based on 3 samples
+
+if (perimeter_worst > 103.25) and (area_worst > 868.2) and (symmetry_se <= 0.01) then class: 0 (proba: 100.0%) | based on 1 samples
+

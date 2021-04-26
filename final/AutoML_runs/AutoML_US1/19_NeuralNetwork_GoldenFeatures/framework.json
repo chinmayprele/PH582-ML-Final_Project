@@ -1,0 +1,1306 @@
+{
+    "uid": "8aea4703-3c24-4e52-b807-20dc9b7431bf",
+    "name": "19_NeuralNetwork_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "smoothness_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.4860165812
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.501162855
+                    },
+                    {
+                        "feature1": "texture_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.5169024597
+                    },
+                    {
+                        "feature1": "smoothness_mean",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.5856335972
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.6115093513
+                    },
+                    {
+                        "feature1": "radius_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6129347707
+                    },
+                    {
+                        "feature1": "texture_mean",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6369349685
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_worst",
+                        "operation": "ratio",
+                        "score": 0.6532377973
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "smoothness_se",
+                        "operation": "diff",
+                        "score": 0.6569618598
+                    },
+                    {
+                        "feature1": "fractal_dimension_se",
+                        "feature2": "concave points_mean",
+                        "operation": "sum",
+                        "score": 0.6677839977
+                    }
+                ],
+                "new_columns": [
+                    "smoothness_worst_ratio_concave points_mean",
+                    "perimeter_worst_ratio_concave points_mean",
+                    "texture_worst_ratio_concave points_mean",
+                    "smoothness_mean_multiply_texture_mean",
+                    "perimeter_worst_multiply_concave points_mean",
+                    "radius_worst_ratio_concave points_mean",
+                    "texture_mean_ratio_concave points_mean",
+                    "compactness_worst_ratio_concavity_worst",
+                    "concave points_mean_diff_smoothness_se",
+                    "fractal_dimension_se_sum_concave points_mean"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        3.7094711125944704,
+                        4.078300549402292,
+                        25.65009458377686,
+                        380.6112076731903,
+                        0.5782439142209675,
+                        2.3297774604334998,
+                        54.08898912863646,
+                        5.106105834132275,
+                        5.983644842287067,
+                        35.699755685112386,
+                        615.2320011066852,
+                        5.959876878204025,
+                        4124.826500655817,
+                        1349.8859363880638,
+                        0.4773070332721293,
+                        7.828079511071199,
+                        650.7233709022152,
+                        1036.3831507742022,
+                        1.519489464771496,
+                        0.04162017730579037,
+                        0.042407130734027014
+                    ],
+                    "mean": [
+                        14.81017994100295,
+                        19.857020648967552,
+                        96.77643067846607,
+                        721.8578171091445,
+                        1.2508702064896755,
+                        3.2378176991150442,
+                        48.49024483775811,
+                        17.2433185840708,
+                        26.43094395280236,
+                        114.24973451327432,
+                        991.087610619469,
+                        4.516231967564054,
+                        3387.348445399742,
+                        912.0466370653056,
+                        1.9292586067846604,
+                        7.806914528082597,
+                        520.8597043494046,
+                        692.4711920102017,
+                        1.2465997350079516,
+                        0.050075882005899706,
+                        0.06103543805309734
+                    ],
+                    "var": [
+                        13.760175935172859,
+                        16.632535371255035,
+                        657.9273521566989,
+                        144864.8914064444,
+                        0.3343660243335857,
+                        5.427863015143968,
+                        2925.6187449577537,
+                        26.072316789359654,
+                        35.80400559862862,
+                        1274.4725559767144,
+                        378510.41518573626,
+                        35.52013240335095,
+                        17014193.66051251,
+                        1822192.04125828,
+                        0.22782200401104158,
+                        61.2788288316527,
+                        423440.90543834184,
+                        1074090.035208663,
+                        2.3088482335515677,
+                        0.001732239158965428,
+                        0.0017983647370928583
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 21,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst",
+                        "smoothness_worst_ratio_concave points_mean",
+                        "perimeter_worst_ratio_concave points_mean",
+                        "texture_worst_ratio_concave points_mean",
+                        "smoothness_mean_multiply_texture_mean",
+                        "perimeter_worst_multiply_concave points_mean",
+                        "radius_worst_ratio_concave points_mean",
+                        "texture_mean_ratio_concave points_mean",
+                        "compactness_worst_ratio_concavity_worst",
+                        "concave points_mean_diff_smoothness_se",
+                        "fractal_dimension_se_sum_concave points_mean"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "smoothness_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.4860165812
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.501162855
+                    },
+                    {
+                        "feature1": "texture_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.5169024597
+                    },
+                    {
+                        "feature1": "smoothness_mean",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.5856335972
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.6115093513
+                    },
+                    {
+                        "feature1": "radius_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6129347707
+                    },
+                    {
+                        "feature1": "texture_mean",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6369349685
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_worst",
+                        "operation": "ratio",
+                        "score": 0.6532377973
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "smoothness_se",
+                        "operation": "diff",
+                        "score": 0.6569618598
+                    },
+                    {
+                        "feature1": "fractal_dimension_se",
+                        "feature2": "concave points_mean",
+                        "operation": "sum",
+                        "score": 0.6677839977
+                    }
+                ],
+                "new_columns": [
+                    "smoothness_worst_ratio_concave points_mean",
+                    "perimeter_worst_ratio_concave points_mean",
+                    "texture_worst_ratio_concave points_mean",
+                    "smoothness_mean_multiply_texture_mean",
+                    "perimeter_worst_multiply_concave points_mean",
+                    "radius_worst_ratio_concave points_mean",
+                    "texture_mean_ratio_concave points_mean",
+                    "compactness_worst_ratio_concavity_worst",
+                    "concave points_mean_diff_smoothness_se",
+                    "fractal_dimension_se_sum_concave points_mean"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        3.753439098443374,
+                        4.3449459758357545,
+                        25.867884669121747,
+                        380.8277532615167,
+                        0.5686249050921584,
+                        2.1399521363291742,
+                        46.86369192476342,
+                        5.204268654386082,
+                        6.301481289933788,
+                        35.946603794738046,
+                        620.4045293321423,
+                        4.942217321858843,
+                        3764.517982604609,
+                        1180.3745456640775,
+                        0.4987492028964517,
+                        7.6799047630924795,
+                        595.1382008181989,
+                        900.3084714117567,
+                        1.3810546969876314,
+                        0.040930558342355275,
+                        0.0416380476854074
+                    ],
+                    "mean": [
+                        14.935882005899703,
+                        19.824336283185843,
+                        97.496401179941,
+                        733.3309734513275,
+                        1.2391351032448377,
+                        3.129205604719764,
+                        46.93574926253687,
+                        17.395109144542772,
+                        26.46433628318584,
+                        114.78262536873156,
+                        1007.0808259587021,
+                        4.311543908059886,
+                        3256.4669833907415,
+                        863.4768431781898,
+                        1.9350464755162242,
+                        7.835293148908556,
+                        501.18901243600254,
+                        651.0067317098687,
+                        1.2267755552419854,
+                        0.05028520648967553,
+                        0.06108665575221239
+                    ],
+                    "var": [
+                        14.088305065723409,
+                        18.878555532931315,
+                        669.1474572549838,
+                        145029.77765421465,
+                        0.32333428269106607,
+                        4.579395145779796,
+                        2196.2056208191366,
+                        27.08441222702552,
+                        39.708666447385596,
+                        1292.1583243758755,
+                        384901.780015837,
+                        24.425512056481594,
+                        14171595.641353475,
+                        1393284.0680516772,
+                        0.24875076738984592,
+                        58.98093717017055,
+                        354189.4780731229,
+                        810555.343695774,
+                        1.9073120760715983,
+                        0.0016753106062169492,
+                        0.0017337270150522604
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 21,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst",
+                        "smoothness_worst_ratio_concave points_mean",
+                        "perimeter_worst_ratio_concave points_mean",
+                        "texture_worst_ratio_concave points_mean",
+                        "smoothness_mean_multiply_texture_mean",
+                        "perimeter_worst_multiply_concave points_mean",
+                        "radius_worst_ratio_concave points_mean",
+                        "texture_mean_ratio_concave points_mean",
+                        "compactness_worst_ratio_concavity_worst",
+                        "concave points_mean_diff_smoothness_se",
+                        "fractal_dimension_se_sum_concave points_mean"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "smoothness_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.4860165812
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.501162855
+                    },
+                    {
+                        "feature1": "texture_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.5169024597
+                    },
+                    {
+                        "feature1": "smoothness_mean",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.5856335972
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.6115093513
+                    },
+                    {
+                        "feature1": "radius_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6129347707
+                    },
+                    {
+                        "feature1": "texture_mean",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6369349685
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_worst",
+                        "operation": "ratio",
+                        "score": 0.6532377973
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "smoothness_se",
+                        "operation": "diff",
+                        "score": 0.6569618598
+                    },
+                    {
+                        "feature1": "fractal_dimension_se",
+                        "feature2": "concave points_mean",
+                        "operation": "sum",
+                        "score": 0.6677839977
+                    }
+                ],
+                "new_columns": [
+                    "smoothness_worst_ratio_concave points_mean",
+                    "perimeter_worst_ratio_concave points_mean",
+                    "texture_worst_ratio_concave points_mean",
+                    "smoothness_mean_multiply_texture_mean",
+                    "perimeter_worst_multiply_concave points_mean",
+                    "radius_worst_ratio_concave points_mean",
+                    "texture_mean_ratio_concave points_mean",
+                    "compactness_worst_ratio_concavity_worst",
+                    "concave points_mean_diff_smoothness_se",
+                    "fractal_dimension_se_sum_concave points_mean"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        3.682714340055651,
+                        4.295610648088154,
+                        25.48192105773657,
+                        375.8804665869627,
+                        0.5366285462062242,
+                        2.292020933755265,
+                        53.4484029668908,
+                        5.053942843372594,
+                        6.120814366329155,
+                        35.06285128273735,
+                        608.5796796727274,
+                        6.159824092750862,
+                        4334.656449546738,
+                        1373.4253167169275,
+                        0.49333995798374236,
+                        7.653109365135893,
+                        683.2735765869463,
+                        1054.6701968519646,
+                        1.7043389804635631,
+                        0.041280915029437634,
+                        0.042184669398675295
+                    ],
+                    "mean": [
+                        14.821032448377581,
+                        19.819498525073747,
+                        96.89082595870205,
+                        721.5905604719765,
+                        1.2238979351032448,
+                        3.1695746312684365,
+                        47.529837758112095,
+                        17.234353982300885,
+                        26.383982300884952,
+                        114.09687315634217,
+                        987.5787610619469,
+                        4.5836523696375275,
+                        3430.627730724077,
+                        912.6859753618737,
+                        1.9373577911504425,
+                        7.800269770088494,
+                        527.6372979944778,
+                        692.3786341571039,
+                        1.3142956633014382,
+                        0.05049766666666668,
+                        0.06146264749262538
+                    ],
+                    "var": [
+                        13.562384910451529,
+                        18.452270839968325,
+                        649.3283007927186,
+                        141286.12516163278,
+                        0.2879701966034058,
+                        5.253359960772357,
+                        2856.731779711141,
+                        25.54233826407706,
+                        37.46436850706137,
+                        1229.4035400753562,
+                        370369.2265105595,
+                        37.94343285363397,
+                        18789246.535597134,
+                        1886297.1005989928,
+                        0.2433843141434007,
+                        58.57008295473071,
+                        466862.7804619176,
+                        1112329.224127762,
+                        2.904771360327578,
+                        0.0017041139456676498,
+                        0.001779546332275532
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 21,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst",
+                        "smoothness_worst_ratio_concave points_mean",
+                        "perimeter_worst_ratio_concave points_mean",
+                        "texture_worst_ratio_concave points_mean",
+                        "smoothness_mean_multiply_texture_mean",
+                        "perimeter_worst_multiply_concave points_mean",
+                        "radius_worst_ratio_concave points_mean",
+                        "texture_mean_ratio_concave points_mean",
+                        "compactness_worst_ratio_concavity_worst",
+                        "concave points_mean_diff_smoothness_se",
+                        "fractal_dimension_se_sum_concave points_mean"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "smoothness_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.4860165812
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.501162855
+                    },
+                    {
+                        "feature1": "texture_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.5169024597
+                    },
+                    {
+                        "feature1": "smoothness_mean",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.5856335972
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.6115093513
+                    },
+                    {
+                        "feature1": "radius_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6129347707
+                    },
+                    {
+                        "feature1": "texture_mean",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6369349685
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_worst",
+                        "operation": "ratio",
+                        "score": 0.6532377973
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "smoothness_se",
+                        "operation": "diff",
+                        "score": 0.6569618598
+                    },
+                    {
+                        "feature1": "fractal_dimension_se",
+                        "feature2": "concave points_mean",
+                        "operation": "sum",
+                        "score": 0.6677839977
+                    }
+                ],
+                "new_columns": [
+                    "smoothness_worst_ratio_concave points_mean",
+                    "perimeter_worst_ratio_concave points_mean",
+                    "texture_worst_ratio_concave points_mean",
+                    "smoothness_mean_multiply_texture_mean",
+                    "perimeter_worst_multiply_concave points_mean",
+                    "radius_worst_ratio_concave points_mean",
+                    "texture_mean_ratio_concave points_mean",
+                    "compactness_worst_ratio_concavity_worst",
+                    "concave points_mean_diff_smoothness_se",
+                    "fractal_dimension_se_sum_concave points_mean"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        3.611976129399178,
+                        4.405736740424819,
+                        24.90395734685924,
+                        364.4886411779883,
+                        0.5570158639658305,
+                        2.0226895405380962,
+                        45.54614914251614,
+                        5.119766439743639,
+                        6.39201964606091,
+                        35.41886978134315,
+                        619.2648528029052,
+                        5.748555893185043,
+                        3601.7521127718105,
+                        1101.5972870695366,
+                        0.5070157188396871,
+                        7.501174968188492,
+                        566.125118103401,
+                        845.3334641163923,
+                        1.59980891799859,
+                        0.040245842148251304,
+                        0.04076484064043701
+                    ],
+                    "mean": [
+                        14.715345132743364,
+                        19.72076696165192,
+                        96.06929203539822,
+                        710.2710914454276,
+                        1.1978979351032448,
+                        3.0630722713864307,
+                        44.82030973451327,
+                        17.198973451327433,
+                        26.383864306784663,
+                        113.70395280235988,
+                        984.3563421828908,
+                        4.542992379551394,
+                        3346.506350761947,
+                        875.2851150698765,
+                        1.9199691654867257,
+                        7.522704609056048,
+                        514.6128576687887,
+                        660.9820281839851,
+                        1.302854898685268,
+                        0.04863671386430678,
+                        0.05940687374631268
+                    ],
+                    "var": [
+                        13.046371559349467,
+                        19.410516225929115,
+                        620.2070915341843,
+                        132851.9695477763,
+                        0.3102666727096005,
+                        4.091272977402215,
+                        2074.451701712324,
+                        26.212008397525256,
+                        40.857915155628646,
+                        1254.496336587743,
+                        383488.95791700383,
+                        33.04589485707248,
+                        12972618.2818562,
+                        1213516.5828789629,
+                        0.25706493915052464,
+                        56.26762590337762,
+                        320497.6493475897,
+                        714588.6655550199,
+                        2.5593885741078193,
+                        0.0016197278102219612,
+                        0.0016617722324402252
+                    ],
+                    "n_samples_seen": 339,
+                    "n_features_in": 21,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst",
+                        "smoothness_worst_ratio_concave points_mean",
+                        "perimeter_worst_ratio_concave points_mean",
+                        "texture_worst_ratio_concave points_mean",
+                        "smoothness_mean_multiply_texture_mean",
+                        "perimeter_worst_multiply_concave points_mean",
+                        "radius_worst_ratio_concave points_mean",
+                        "texture_mean_ratio_concave points_mean",
+                        "compactness_worst_ratio_concavity_worst",
+                        "concave points_mean_diff_smoothness_se",
+                        "fractal_dimension_se_sum_concave points_mean"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "smoothness_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.4860165812
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.501162855
+                    },
+                    {
+                        "feature1": "texture_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.5169024597
+                    },
+                    {
+                        "feature1": "smoothness_mean",
+                        "feature2": "texture_mean",
+                        "operation": "multiply",
+                        "score": 0.5856335972
+                    },
+                    {
+                        "feature1": "perimeter_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "multiply",
+                        "score": 0.6115093513
+                    },
+                    {
+                        "feature1": "radius_worst",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6129347707
+                    },
+                    {
+                        "feature1": "texture_mean",
+                        "feature2": "concave points_mean",
+                        "operation": "ratio",
+                        "score": 0.6369349685
+                    },
+                    {
+                        "feature1": "compactness_worst",
+                        "feature2": "concavity_worst",
+                        "operation": "ratio",
+                        "score": 0.6532377973
+                    },
+                    {
+                        "feature1": "concave points_mean",
+                        "feature2": "smoothness_se",
+                        "operation": "diff",
+                        "score": 0.6569618598
+                    },
+                    {
+                        "feature1": "fractal_dimension_se",
+                        "feature2": "concave points_mean",
+                        "operation": "sum",
+                        "score": 0.6677839977
+                    }
+                ],
+                "new_columns": [
+                    "smoothness_worst_ratio_concave points_mean",
+                    "perimeter_worst_ratio_concave points_mean",
+                    "texture_worst_ratio_concave points_mean",
+                    "smoothness_mean_multiply_texture_mean",
+                    "perimeter_worst_multiply_concave points_mean",
+                    "radius_worst_ratio_concave points_mean",
+                    "texture_mean_ratio_concave points_mean",
+                    "compactness_worst_ratio_concavity_worst",
+                    "concave points_mean_diff_smoothness_se",
+                    "fractal_dimension_se_sum_concave points_mean"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        3.701259881893346,
+                        4.180945007806788,
+                        25.622666318766903,
+                        381.3925869524294,
+                        0.5568811966947528,
+                        2.2793446909828634,
+                        53.021890388362905,
+                        5.0260751180700325,
+                        5.966708271039862,
+                        35.26553072355026,
+                        605.4337560432693,
+                        5.63897670188176,
+                        4121.332281905399,
+                        1327.918972432416,
+                        0.4846508879997704,
+                        7.9402370086809215,
+                        648.9489157515168,
+                        1024.5915474200829,
+                        1.4939858612747157,
+                        0.041573527256881695,
+                        0.042502167934501414
+                    ],
+                    "mean": [
+                        14.817414705882353,
+                        19.874441176470594,
+                        96.82373529411767,
+                        721.2797058823529,
+                        1.2187782352941177,
+                        3.1717900000000006,
+                        46.921282352941176,
+                        17.22706764705882,
+                        26.480235294117644,
+                        114.18585294117648,
+                        983.7885294117647,
+                        4.383557401040066,
+                        3336.236501239587,
+                        894.0950745063043,
+                        1.9365711847058822,
+                        7.7640497905000005,
+                        512.2824127791865,
+                        678.5610704137207,
+                        1.2529170687460942,
+                        0.04996838823529412,
+                        0.06076821323529411
+                    ],
+                    "var": [
+                        13.699324713313148,
+                        17.4803011583045,
+                        656.521029282872,
+                        145460.3053822664,
+                        0.3101166672321799,
+                        5.1954122203117645,
+                        2811.320860355571,
+                        25.261431092482695,
+                        35.601607591695505,
+                        1243.6576572136678,
+                        366550.03295666096,
+                        31.798058244365293,
+                        16985379.77787557,
+                        1763368.7973459635,
+                        0.234886483238966,
+                        63.047363754026144,
+                        421134.69525506924,
+                        1049787.83904468,
+                        2.231993753688754,
+                        0.0017283581685786855,
+                        0.0018064342791325602
+                    ],
+                    "n_samples_seen": 340,
+                    "n_features_in": 21,
+                    "columns": [
+                        "radius_mean",
+                        "texture_mean",
+                        "perimeter_mean",
+                        "area_mean",
+                        "texture_se",
+                        "perimeter_se",
+                        "area_se",
+                        "radius_worst",
+                        "texture_worst",
+                        "perimeter_worst",
+                        "area_worst",
+                        "smoothness_worst_ratio_concave points_mean",
+                        "perimeter_worst_ratio_concave points_mean",
+                        "texture_worst_ratio_concave points_mean",
+                        "smoothness_mean_multiply_texture_mean",
+                        "perimeter_worst_multiply_concave points_mean",
+                        "radius_worst_ratio_concave points_mean",
+                        "texture_mean_ratio_concave points_mean",
+                        "compactness_worst_ratio_concavity_worst",
+                        "concave points_mean_diff_smoothness_se",
+                        "fractal_dimension_se_sum_concave points_mean"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "radius_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_mean": [
+                        "scale_normal"
+                    ],
+                    "perimeter_mean": [
+                        "scale_normal"
+                    ],
+                    "area_mean": [
+                        "scale_normal"
+                    ],
+                    "texture_se": [
+                        "scale_normal"
+                    ],
+                    "perimeter_se": [
+                        "scale_normal"
+                    ],
+                    "area_se": [
+                        "scale_normal"
+                    ],
+                    "radius_worst": [
+                        "scale_normal"
+                    ],
+                    "texture_worst": [
+                        "scale_normal"
+                    ],
+                    "perimeter_worst": [
+                        "scale_normal"
+                    ],
+                    "area_worst": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "binary_classification"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "05de2800-dad6-4810-85fb-36a3230a54fc",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "8777e2d9-bf57-4255-87c5-f9e6883e21f3",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "111894a7-d1b4-406d-906c-0f30be1a11b8",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "74096446-33c1-4009-8d32-f7c87dae8b59",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "0.24.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b3a452f4-9be0-4986-ae40-bddbd2f67fe9",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1238,
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
+                "explain_level": 2
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "radius_mean": [
+                    "scale_normal"
+                ],
+                "texture_mean": [
+                    "scale_normal"
+                ],
+                "perimeter_mean": [
+                    "scale_normal"
+                ],
+                "area_mean": [
+                    "scale_normal"
+                ],
+                "texture_se": [
+                    "scale_normal"
+                ],
+                "perimeter_se": [
+                    "scale_normal"
+                ],
+                "area_se": [
+                    "scale_normal"
+                ],
+                "radius_worst": [
+                    "scale_normal"
+                ],
+                "texture_worst": [
+                    "scale_normal"
+                ],
+                "perimeter_worst": [
+                    "scale_normal"
+                ],
+                "area_worst": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "binary_classification"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 1230,
+            "X_path": "AutoML_1/X.parquet",
+            "y_path": "AutoML_1/y.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1238,
+            "dense_1_size": 32,
+            "dense_2_size": 32,
+            "learning_rate": 0.05,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "19_NeuralNetwork_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 200.0
+    },
+    "saved": [
+        "19_NeuralNetwork_GoldenFeatures/learner_fold_0.neural_network",
+        "19_NeuralNetwork_GoldenFeatures/learner_fold_1.neural_network",
+        "19_NeuralNetwork_GoldenFeatures/learner_fold_2.neural_network",
+        "19_NeuralNetwork_GoldenFeatures/learner_fold_3.neural_network",
+        "19_NeuralNetwork_GoldenFeatures/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "19_NeuralNetwork_GoldenFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.1586051117616273,
+    "train_time": 9.510995864868164,
+    "is_stacked": false,
+    "threshold": 0.5444817397278663
+}

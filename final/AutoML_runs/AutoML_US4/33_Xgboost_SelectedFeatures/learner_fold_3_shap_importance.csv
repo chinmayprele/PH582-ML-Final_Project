@@ -1,0 +1,13 @@
+feature,shap_importance
+area_worst,1.7132794857025146
+concave points_worst,1.3564337491989136
+texture_worst,1.2077009677886963
+perimeter_worst,1.0416498184204102
+area_se,0.7651978731155396
+concave points_mean,0.7347992062568665
+smoothness_worst,0.5726422667503357
+compactness_se,0.4542006552219391
+texture_mean,0.2843535542488098
+concavity_worst,0.25734996795654297
+fractal_dimension_se,0.25493910908699036
+compactness_worst,0.04147127643227577

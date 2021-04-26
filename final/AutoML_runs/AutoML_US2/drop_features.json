@@ -1,0 +1,14 @@
+[
+    "radius_mean",
+    "area_mean",
+    "perimeter_mean",
+    "symmetry_worst",
+    "smoothness_se",
+    "fractal_dimension_se",
+    "random_feature",
+    "fractal_dimension_worst",
+    "fractal_dimension_mean",
+    "texture_se",
+    "perimeter_se",
+    "smoothness_mean"
+]

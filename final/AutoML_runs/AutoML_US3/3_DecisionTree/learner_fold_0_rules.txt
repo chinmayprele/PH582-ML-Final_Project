@@ -1,0 +1,26 @@
+if (perimeter_worst <= 105.95) and (concave points_worst <= 0.142) and (radius_se <= 0.643) and (fractal_dimension_se > 0.001) then class: 0 (proba: 99.35%) | based on 154 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean > 0.047) and (concavity_worst > 0.182) and (texture_worst > 18.355) then class: 1 (proba: 100.0%) | based on 144 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean <= 0.047) and (concave points_se <= 0.011) and (texture_worst > 19.91) then class: 1 (proba: 100.0%) | based on 9 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst > 0.142) and (texture_worst > 23.47) and (area_mean <= 546.35) then class: 1 (proba: 100.0%) | based on 9 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean > 0.047) and (concavity_worst > 0.182) and (texture_worst <= 18.355) then class: 1 (proba: 80.0%) | based on 5 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean <= 0.047) and (concave points_se > 0.011) then class: 0 (proba: 100.0%) | based on 5 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst <= 0.142) and (radius_se <= 0.643) and (fractal_dimension_se <= 0.001) then class: 0 (proba: 80.0%) | based on 5 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst > 0.142) and (texture_worst <= 23.47) then class: 0 (proba: 100.0%) | based on 2 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst <= 0.142) and (radius_se > 0.643) and (symmetry_se <= 0.025) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean > 0.047) and (concavity_worst <= 0.182) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst > 105.95) and (concave points_mean <= 0.047) and (concave points_se <= 0.011) and (texture_worst <= 19.91) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst > 0.142) and (texture_worst > 23.47) and (area_mean > 546.35) then class: 0 (proba: 100.0%) | based on 1 samples
+
+if (perimeter_worst <= 105.95) and (concave points_worst <= 0.142) and (radius_se > 0.643) and (symmetry_se > 0.025) then class: 0 (proba: 100.0%) | based on 1 samples
+
